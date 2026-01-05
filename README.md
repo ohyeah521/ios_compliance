@@ -115,15 +115,15 @@ Tweak 模式需要编译 Objective-C 动态库，适合对抗反调试更强的 
 
 ### 1. 编译环境准备
 你需要安装 **Theos** 编译环境（通常需要 macOS 或 Linux）。
-*   [Theos 安装指南](https://github.com/theos/theos/wiki/Installation)
-*   确保已安装 `ldid` 用于签名。
+- [Theos 安装指南](https://github.com/theos/theos/wiki/Installation)
+- 确保已安装 `ldid` 用于签名。
 
 ### 2. 编译插件
-进入 `app/ios_monitor_tweak` 目录（如果源码在此）：
+进入 `tweak_monitor` 目录：
 ```bash
-# 1. 清理缓存
+# 清理缓存
 make clean
-# 2. 编译
+# 编译
 make package
 ```
 编译成功后，在 .theos/obj/debug/ 目录下会生成 MonitorTweak.dylib。
