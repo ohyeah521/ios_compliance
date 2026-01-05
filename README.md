@@ -41,7 +41,7 @@
 -   **IDFA / IDFV** (广告标识符/供应商标识符)
 -   **Clipboard** (剪贴板读取内容检测)
 -   **Keychain** (读取、修改Keychain数据等)
--   **location** (地理位置获取检测)
+-   **Location** (地理位置获取检测)
 -   **PhotoLibrary** (获取相册信息)
 -   **Contacts** (读取通讯录数据等)
 -   *支持查看详细的调用堆栈，快速定位业务代码位置。*
