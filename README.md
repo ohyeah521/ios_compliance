@@ -1,5 +1,5 @@
 # 🕵️ iOS App 隐私合规检测系统
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-2.x-green.svg)](https://flask.palletsprojects.com/)
 [![Frida](https://img.shields.io/badge/Frida-16.2.1-red.svg)](https://frida.re/)
 [![License](https://img.shields.io/badge/License-LGPL_v2.1-blue.svg)](LICENSE)
@@ -79,7 +79,7 @@
 -   **手机**: 已越狱的 iPhone (iOS 12.0 - 16.x)
 
 ### 软件依赖
--   **Python**: 3.8 及以上
+-   **Python**: 3.9 及以上
 -   **iOS 端**:
     -   已安装 `Frida` (源: `build.frida.re`)
     -   已安装 `OpenSSH` (默认密码 `alpine`)
@@ -142,6 +142,7 @@ cp path/to/MonitorTweak.dylib app_monitor/app/tweak_libs/MonitorTweak.dylib
 """
 ## 📂 项目结构
 ```
+
 app-monitor/
 ├── run.py                  # 项目启动入口
 ├── config.py               # 配置文件 (SSH 账号等)
@@ -151,10 +152,22 @@ app-monitor/
 │   ├── api/                # 后端 API 路由
 │   ├── services/           # 核心服务 (Frida管理, Tweak部署)
 │   ├── frida_scripts/      # Frida JS 注入脚本 (network, file, privacy...)
-│   ├── tweak_libs/        # 存放编译好的 monitor.dylib
+│   ├── tweak_libs/         # 存放编译好的 MonitorTweak.dylib
+│   ├── utils/              # 将App图标转为在可在Web页面中显示的Base64格式
+│   ├── web/                # Web页面入口点
 │   ├── static/             # 前端静态资源 (CSS, JS Modules)
 │   └── templates/          # HTML 模板
-└── README.md               # 说明文档
+tweak_monitor/              
+├── module/
+│   └── Symbol/             # 用于获取函数调用堆栈
+├── Tweak.x                 # 主Tweak文件
+├── MonitorFiles.x          # 文件监控模块
+├── MonitorHooks.x          # 隐私监控模块
+├── MonitorUtils.h          # 监控工具头文件
+├── MonitorUtils.m          # 监控工具实现文件
+├── MonitorTweak.plist      # Tweak的配置文件
+└── Makefile                # 编译配置文件
+
 ```
 
 ## ⚠️ 免责声明
