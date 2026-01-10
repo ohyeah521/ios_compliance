@@ -23,19 +23,22 @@ class TweakService:
     @staticmethod
     def _remove_tweak_files(ssh_client):
         """
-        独立封装：物理删除 iOS 设备上的插件文件和配置
+        物理删除 iOS 设备上的插件文件和配置
         """
         commands = [
             "rm -f /Library/MobileSubstrate/DynamicLibraries/MonitorTweak.dylib",
             "rm -f /Library/MobileSubstrate/DynamicLibraries/MonitorTweak.plist",
+            "rm -f /var/mobile/monitor_config.json",
+            "rm -f /var/mobile/monitor_sdk_rules.json"
         ]
         for cmd in commands:
             ssh_client.exec_command(cmd)
-        print("[*] 远程插件文件已清理")
+        print("[*] 设备中旧插件文件已清理")
 
     @staticmethod
     def deploy_tweak(device_ip, bundle_id, server_ip):
         ssh = paramiko.SSHClient()
+        sftp = None
         try:
             # 初始化 Frida USB 连接
             device = TweakService._get_usb_device()
@@ -45,68 +48,113 @@ class TweakService:
             target_app = next((app for app in apps if app.identifier == bundle_id), None)
             if target_app and target_app.pid != 0:
                 print(f"[*] 检测到 {bundle_id} 正在运行 (PID: {target_app.pid})，正在强制退出...")
-                device.kill(target_app.pid)
-                time.sleep(1.0) # 给系统一点缓冲时间
+                try:
+                    device.kill(target_app.pid)
+                    time.sleep(1.0) # 给系统一点缓冲时间
+                except Exception as e:
+                    print(f"[!] 尝试终止进程失败 (可能是已退出): {e}")
+                
+            # 检查注入是所需依赖文件
+            local_rules = os.path.join(os.getcwd(), 'app/frida_scripts/ios_sdk_rules.json')
+            local_dylib = os.path.join(os.getcwd(), 'app/tweak_libs/MonitorTweak.dylib')
+            
+            if not os.path.exists(local_rules):
+                return False, "本地未找到 app/frida_scripts/ios_sdk_rules.json"
+            if not os.path.exists(local_dylib):
+                return False, "本地未找到 app/tweak_libs/MonitorTweak.dylib，请先编译插件！"
 
-            # SSH 连接上传Tweak插件文件 (文件传输需通过网络或 USB 映射端口)
+            # SSH 连接
             ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-            # 通过 USB 映射（如 iproxy 2222 22）
-            ssh.connect(device_ip, Config.SSH_PORT, Config.SSH_USER, Config.SSH_PASS)
+            # 通过 USB 映射（如 iproxy 2222 22）或直连 IP
+            ssh.connect(device_ip, Config.SSH_PORT, Config.SSH_USER, Config.SSH_PASS, timeout=10)
+            
             # 清理历史插件文件
             TweakService._remove_tweak_files(ssh)
+            
+            # 开始上传文件
             sftp = ssh.open_sftp()
+            # 定义远程路径变量，方便后续校验
+            remote_base_lib = "/Library/MobileSubstrate/DynamicLibraries"
+            path_dylib = f"{remote_base_lib}/MonitorTweak.dylib"
+            path_plist = f"{remote_base_lib}/MonitorTweak.plist"
+            path_rules = "/var/mobile/monitor_sdk_rules.json"
+            path_config = "/var/mobile/monitor_config.json"
             
-            remote_base = "/Library/MobileSubstrate/DynamicLibraries"
+            # 上传 Dylib
+            sftp.put(local_dylib, path_dylib)
             
-            # --- 部署 Dylib ---
-            local_dylib = os.path.join(os.getcwd(), 'app/tweak_libs/MonitorTweak.dylib')
-            sftp.put(local_dylib, f"{remote_base}/MonitorTweak.dylib")
-            
-            # --- 部署 Plist 过滤器 ---
+            # 上传 Plist 文件
             plist_data = {"Filter": {"Bundles": [bundle_id]}}
             with open('temp.plist', 'wb') as f:
                 plistlib.dump(plist_data, f)
-            sftp.put('temp.plist', f"{remote_base}/MonitorTweak.plist")
+            sftp.put('temp.plist', path_plist)
             
-            # --- 部署 配置文件 ---
+            # 上传 SDK 规则文件
+            sftp.put(local_rules, path_rules)
+            
+            # 上传 配置文件
             config_data = {"server_url": f"http://{server_ip}:{Config.SERVER_PORT}/api/report_log"}
             with open('temp_config.json', 'w') as f:
                 json.dump(config_data, f)
-            sftp.put('temp_config.json', "/var/mobile/monitor_config.json")
+            sftp.put('temp_config.json', path_config)
+            
+            # 关闭 SFTP，准备执行校验命令
             sftp.close()
+            sftp = None 
+
+            # 文件传输校验逻辑，检查文件是否存在
+            check_cmd = f"test -s {path_dylib} && test -s {path_plist} && test -s {path_rules} && test -s {path_config}"
+            stdin, stdout, stderr = ssh.exec_command(check_cmd)
+            exit_status = stdout.channel.recv_exit_status()
+
+            if exit_status != 0:
+                raise Exception("文件传输校验失败：设备上未找到完整文件，请检查磁盘空间或读写权限。")
+            print("[*] 插件文件校验通过，准备启动应用...")
 
             # 通过 Frida 启动应用，使注入的dylib文件生效
             pid = device.spawn([bundle_id])
             device.resume(pid)
             
-            return True, f"USB 部署成功，应用已拉起 (PID: {pid})"
+            return True, f"插件部署并校验成功，应用已自动拉起 (PID: {pid})"
 
         except Exception as e:
-            return False, f"USB 部署失败: {str(e)}"
+            print(f"[Deploy Error] {e}")
+            return False, f"部署失败: {str(e)}"
         finally:
+            if sftp: sftp.close()
             ssh.close()
-            # 清理临时文件
+            # 清理本地临时文件
             for f in ['temp.plist', 'temp_config.json']:
                 if os.path.exists(f): os.remove(f)
 
     @staticmethod
     def cleanup_tweak(device_ip, bundle_id):
         """清除注入并强杀进程"""
-        print(f"[*] 正在杀死... {bundle_id} ")
+        print(f"[*] 正在清理环境并停止应用: {bundle_id} ")
         try:
             # 连接SSH 删除文件
             ssh = paramiko.SSHClient()
             ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-            ssh.connect(device_ip, Config.SSH_PORT, Config.SSH_USER, Config.SSH_PASS)
-            ssh.exec_command("rm /Library/MobileSubstrate/DynamicLibraries/MonitorTweak.*")
+            ssh.connect(device_ip, Config.SSH_PORT, Config.SSH_USER, Config.SSH_PASS, timeout=5)
+            
+            # 删除相关文件
+            cmd = "rm -f /Library/MobileSubstrate/DynamicLibraries/MonitorTweak.dylib " \
+                  "/Library/MobileSubstrate/DynamicLibraries/MonitorTweak.plist " \
+                  "/var/mobile/monitor_config.json " \
+                  "/var/mobile/monitor_sdk_rules.json"
+            ssh.exec_command(cmd)
             ssh.close()
 
             # 通过Frida USB 强杀目标应用
             device = TweakService._get_usb_device()
-            apps = device.enumerate_applications()
-            target = next((app for app in apps if app.identifier == bundle_id), None)
-            if target and target.pid != 0:
-                device.kill(target.pid)
+            try:
+                apps = device.enumerate_applications()
+                target = next((app for app in apps if app.identifier == bundle_id), None)
+                if target and target.pid != 0:
+                    device.kill(target.pid)
+            except Exception as kill_err:
+                print(f"[!] 尝试关闭应用时出错 (可能已关闭): {kill_err}")
+
             return True, f"插件已移除，应用 {bundle_id} 已关闭"
         except Exception as e:
             return False, f"清理失败: {str(e)}"

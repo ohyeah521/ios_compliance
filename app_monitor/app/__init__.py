@@ -4,9 +4,7 @@ from flask import Flask
 from flask_socketio import SocketIO
 from config import Config
 
-# 修改这里：去掉 async_mode='gevent'，让它自动选择，或者显式指定为 'threading'
-# socketio = SocketIO() 
-socketio = SocketIO(async_mode='threading') # <--- 推荐修改为这样
+socketio = SocketIO(async_mode='threading') 
 
 def create_app(config_class=Config):
     app = Flask(__name__)

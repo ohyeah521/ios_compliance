@@ -42,6 +42,12 @@ export const SocketClient = {
                 Dashboard.updatePrivacy(data.category);
             });
 
+            socket.on('sdk_log', (payload) => {
+                console.log("[Debug] SDK Data received:", payload);
+                const list = payload.data || [];
+                if (UI && UI.renderSDKList) UI.renderSDKList(list);
+            });
+
             socket.on('sys_log', (data) => console.log("[System]", data.msg));
 
         } catch (e) {

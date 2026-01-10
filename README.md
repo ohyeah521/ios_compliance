@@ -19,6 +19,8 @@
 2.  **低门槛**：一键开启监控，自动注入 Hook 脚本。
 3.  **双模式**：支持 **Frida (USB)** 快速调试和 **Tweak (越狱插件)** 持久化监控，适应不同场景。
 
+#### 备注：选择Tweak模式，iOS 14+ 要求目标 App 必须获得 “本地网络 (Local Network)” 权限才能访问
+
 ---
 
 ## ✨ 核心功能
@@ -140,6 +142,7 @@ cp path/to/MonitorTweak.dylib app_monitor/app/tweak_libs/MonitorTweak.dylib
 3. 输入 手机 IP (如 192.168.1.101) 和 电脑 IP (如 192.168.1.100)。
 4. 点击确认。系统会自动通过 SSH 上传插件并重启 App。
 """
+
 ## 📂 项目结构
 ```
 
@@ -165,6 +168,8 @@ tweak_monitor/
 ├── MonitorHooks.x          # 隐私监控模块
 ├── MonitorUtils.h          # 监控工具头文件
 ├── MonitorUtils.m          # 监控工具实现文件
+├── SDKDetector.h           # SDK检测头文件
+├── SDKDetector.m           # SDK检测实现文件
 ├── MonitorTweak.plist      # Tweak的配置文件
 └── Makefile                # 编译配置文件
 

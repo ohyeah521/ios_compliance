@@ -61,7 +61,12 @@ def report_log():
         socketio.emit('file_log', data)
     elif msg_type == 'info':
         socketio.emit('info_log', data)
-        
+    elif msg_type == 'sdk':
+        socketio.emit('sdk_log', data)   
+    elif msg_type == 'heart':
+        socketio.emit('heart_log', data)   
+    elif msg_type == 'sys_log':
+        socketio.emit('sys_log', data)      
     return "ok", 200
 
 # === 启动监控 (Tweak 模式) ===

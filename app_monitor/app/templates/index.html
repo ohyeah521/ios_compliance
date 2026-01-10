@@ -39,7 +39,7 @@
             <!-- 全局监控状态条 (默认隐藏) -->
             <div id="global-monitor-bar" class="d-none align-items-center bg-danger rounded-pill px-3 py-1 mx-auto monitor-active">
                 <span class="spinner-grow spinner-grow-sm text-white me-2"></span>
-                <span class="text-white small me-1">正在监控:</span>
+                <span class="text-white small me-1 fw-bold">正在监控:</span>
                 <span class="text-white fw-bold me-3" id="global-app-name" style="overflow: hidden; white-space: nowrap;">Unknown</span>
                 <button class="btn btn-sm btn-light text-danger fw-bold border-0 px-3 rounded-pill" onclick="stopMonitor()">⬛ 停止</button>
             </div>
@@ -291,6 +291,52 @@
                                 </div>
                             </div>
                         </div>
+
+
+                        <!-- 4. SDK 检测结果卡片 -->
+                        <div class="col-md-12">
+                            <div class="card shadow-sm border-0 h-100">
+                                <!-- [修改] 增加 align-items-center 实现垂直居中 -->
+                                <div class="card-header bg-white border-0 pt-3 ps-3 d-flex justify-content-between align-items-center">
+                                    
+                                    <h5 class="card-title text-dark fw-bold mb-0">
+                                        <i class="bi bi-box-seam me-2"></i>第三方 SDK 清单
+                                    </h5>
+                                    
+                                    <!-- [修改] 美化徽章：胶囊形状、蓝色半透明背景、增加内边距 -->
+                                    <span class="badge rounded-pill bg-primary bg-opacity-10 text-primary border border-primary px-3 py-2" 
+                                        id="sdk-count" 
+                                        style="font-size: 13px; letter-spacing: 0.5px;">
+                                        等待分析...
+                                    </span>
+                                    
+                                </div>
+                                <div class="card-body p-0">
+                                    <!-- 表格内容保持不变 -->
+                                    <div class="table-responsive" style="max-height: 400px; overflow-y: auto;">
+                                        <table class="table table-hover table-v-line mb-0 align-middle">
+                                            <thead class="table-light sticky-top">
+                                                <tr>
+                                                    <th width="25%" class="ps-4">SDK 名称</th>
+                                                    <th width="30%">分类 </th>
+                                                    <th width="45%">匹配的特征 </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="sdk-table-body">
+                                                <!-- 默认等待状态 -->
+                                                <tr>
+                                                    <td colspan="3" class="text-center py-4 text-muted">
+                                                        <i class="bi bi-pause-circle me-1"></i> 等待监控启动
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
 
                     </div>
                 </div>

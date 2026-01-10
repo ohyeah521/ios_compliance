@@ -1,5 +1,5 @@
 // =================================================================
-// 监控模块加载 (Monitor loader) 
+// 监控模块加载 (Monitor loader) - 修复版
 // =================================================================
 
 // 全局环境与状态
@@ -25,10 +25,12 @@ rpc.exports = {
     };
 
     console.log(`[Loader] 注入成功 (Frida ${Frida.version})`);
-    // 检测 ObjC 环境是
+
+    // 检测 ObjC 环境
     function isObjCReady() {
         return ObjC.available && "NSString" in ObjC.classes;
     }
+
     // 执行业务 Hook
     function performHooks() {
         if (_global.hooksLoaded) return;
@@ -41,7 +43,9 @@ rpc.exports = {
             { name: "防锁屏", fn: "startAntiLock" },
             { name: "网络监控", fn: "startNetworkHook" },
             { name: "文件监控", fn: "startFileHook" },
-            { name: "隐私监控", fn: "startPrivacyHook" }
+            { name: "隐私监控", fn: "startPrivacyHook" },
+            // [核心修改] 添加 SDK 检测模块入口
+            { name: "SDK检测", fn: "startSDKCheck" } 
         ];
 
         let successCount = 0;
@@ -49,11 +53,15 @@ rpc.exports = {
             const fn = _global[mod.fn];
             if (typeof fn === 'function') {
                 try {
-                    fn();
+                    fn(); // 调用模块启动函数
+                    console.log(`[Loader] ${mod.name} 模块已启动`);
                     successCount++;
                 } catch (e) {
                     console.error(`[-] ${mod.name} 加载失败: ${e.message}`);
                 }
+            } else {
+                // 可选：打印警告，方便排查哪个函数没定义
+                // console.warn(`[Loader] 未找到函数: ${mod.fn} (可能是对应脚本文件未加载)`);
             }
         });
 

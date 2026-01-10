@@ -2,8 +2,7 @@
 #import <substrate.h>
 #import <Security/Security.h>
 #import <dlfcn.h>
-
-
+#import "SDKDetector.h" 
 // 定义 ptrace 函数原型
 typedef int (*ptrace_ptr_t)(int _request, pid_t _pid, caddr_t _addr, int _data);
 static ptrace_ptr_t orig_ptrace = NULL;
@@ -18,7 +17,6 @@ int my_ptrace(int _request, pid_t _pid, caddr_t _addr, int _data) {
     // 其他调用放行
     return orig_ptrace(_request, _pid, _addr, _data);
 }
-
 
 // Keychain 原始函数指针
 typedef OSStatus (*SecItemCopyMatchingType)(CFDictionaryRef query, CFTypeRef *result);
@@ -84,11 +82,15 @@ OSStatus new_SecItemDelete(CFDictionaryRef query) {
     return orig_SecItemDelete(query);
 }
 
+
 // =======================================================
 // 初始化入口
 // =======================================================
 %ctor {
     NSLog(@"--- [MonitorTweak] Loaded: %@ ---", [[NSBundle mainBundle] bundleIdentifier]);
+    // 发送心跳
+    [MonitorUtils sendHeartBeatLog];
+
     // Hook ptrace
     MSHookFunction((void *)MSFindSymbol(NULL, "_ptrace"), (void *)my_ptrace, (void **)&orig_ptrace);
 
@@ -103,4 +105,6 @@ OSStatus new_SecItemDelete(CFDictionaryRef query) {
     } else {
         NSLog(@"[MonitorTweak] Failed to load!");
     }
+    // 启动 SDK 检测
+    startSDKDetection();
 }

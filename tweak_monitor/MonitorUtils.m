@@ -73,22 +73,39 @@ static NSString *SERVER_URL = @"http://192.168.31.158:8080/api/report_log";
 }
 
 + (void)sendLog:(NSDictionary *)data {
+    // 加载配置
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{ [self loadConfig]; });
 
+    // 检查 URL
     NSURL *url = [NSURL URLWithString:SERVER_URL];
     NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:url];
     [req setHTTPMethod:@"POST"];
     [req setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+    
+    // 忽略缓存策略
+    [req setCachePolicy:NSURLRequestReloadIgnoringLocalCacheData];
     
     NSError *error;
     NSData *body = [NSJSONSerialization dataWithJSONObject:data options:0 error:&error];
     if (!body) return;
     [req setHTTPBody:body];
     
+    // 使用自定义配置，强制允许各种网络环境
     NSURLSessionConfiguration *conf = [NSURLSessionConfiguration ephemeralSessionConfiguration];
+    conf.allowsCellularAccess = YES; // 允许蜂窝
+    conf.waitsForConnectivity = NO;  // 不等待，直接发
+    conf.timeoutIntervalForRequest = 5.0;
+    
     NSURLSession *session = [NSURLSession sessionWithConfiguration:conf];
-    [[session dataTaskWithRequest:req] resume];
+    
+    NSURLSessionDataTask *task = [session dataTaskWithRequest:req completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable connectionError) {
+        if (connectionError) {
+            NSLog(@"[MonitorTweak] Send log Network Error: %@", connectionError);
+        }
+    }];
+    
+    [task resume];
 }
 
 + (void)reportLogWithCategory:(NSString *)category func:(NSString *)func content:(id)content methodDesc:(NSString *)methodDesc {
@@ -124,6 +141,33 @@ static NSString *SERVER_URL = @"http://192.168.31.158:8080/api/report_log";
 
     [self sendLog:dict];
 
+}
+
+// 发送 SDK 日志
++ (void)reportSDKLog:(NSArray *)sdkList {
+    if (!sdkList || sdkList.count == 0) {
+        return;
+    }
+
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    
+    // 设置类型为 sdk，与 Python 后端对应
+    dict[@"type"] = @"sdk"; 
+    dict[@"data"] = sdkList; // 这里直接放入 SDK 数组
+
+    [self sendLog:dict];
+    NSLog(@"[MonitorTweak] Sending SDK count: %lu", (unsigned long)sdkList.count);
+}
+
+
++ (void)sendHeartBeatLog {
+    // 构造心跳消息
+    NSMutableDictionary *heartbeat = [NSMutableDictionary dictionary];
+    heartbeat[@"type"] = @"heart"; // 系统日志类型
+    heartbeat[@"msg"] = @"✅ Tweak 插件已成功注入并加载！(Heartbeat)";
+    NSLog(@"[MonitorTweak] Sending heart beat log!");
+    // 发送
+    [self sendLog:heartbeat];
 }
 
 @end

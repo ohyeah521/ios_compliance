@@ -1,9 +1,9 @@
 // =================================================================
 // 反调试绕过模块 (Anti-Anti-Debug)
 // =================================================================
-console.log("[Anti-Anti-Debug] 加载模块: Anti-Debug Bypass");
 
 function bypassAntiDebug() {
+    console.log("[Anti-Anti-Debug] 加载模块: Anti-Debug Bypass");
     // 绕过 ptrace PT_DENY_ATTACH
     var ptracePtr = Module.findExportByName(null, "ptrace");
     if (ptracePtr) {

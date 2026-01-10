@@ -13,6 +13,7 @@ MonitorTweak_FILES = Tweak.x \
                      MonitorHooks.x \
                      MonitorFiles.x \
                      MonitorUtils.m \
+                     SDKDetector.m \
                      $(wildcard module/Symbol/*.m)
 
 # 增加module/Symbol 目录下所有的 .m 文件

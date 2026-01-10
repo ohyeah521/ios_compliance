@@ -24,7 +24,15 @@ function startPrivacyHook() {
         send({
             "type": "info",
             "category": category,
-            "timestamp": new Date().toLocaleString(),
+            "timestamp": (function(d) {
+                var year = d.getFullYear();
+                var month = (d.getMonth() + 1).toString().padStart(2, '0');
+                var day = d.getDate().toString().padStart(2, '0');
+                var hour = d.getHours().toString().padStart(2, '0');
+                var min = d.getMinutes().toString().padStart(2, '0');
+                var sec = d.getSeconds().toString().padStart(2, '0');
+                return `${year}/${month}/${day}, ${hour}:${min}:${sec}`;
+            })(new Date()), // Changed format to YYYY/MM/DD, HH:MM:SS
             "func": funcName,
             "method": methodDesc,
             "content": String(content),

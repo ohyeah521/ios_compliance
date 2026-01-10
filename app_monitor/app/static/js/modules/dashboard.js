@@ -147,6 +147,11 @@ function updateNetwork(url) {
         domain = urlObj.hostname;
     } catch (e) {}
 
+    // 如果解析失败(Unknown)，直接丢弃，不计入域名统计
+    if (domain === 'Unknown') {
+        return;
+    }
+
     stats.domains[domain] = (stats.domains[domain] || 0) + 1;
 
     if (charts.network) {

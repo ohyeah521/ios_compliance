@@ -16,22 +16,45 @@ class MonitorService:
     pid = None
     bundle_id = None
 
-    # JS文件加载顺序不能变，否则会导致JS文件加载失败
-    JS_FILES = ['bypass.js', 'privacy.js', 'file.js', 'network.js', 'antilock.js', 'loader.js']
-    #JS_FILES = ['privacy.js']
-    SCRIPT_DIR = Path(__file__).parent.parent / 'frida_scripts'
+    @staticmethod
+    def _load_js_source():
+        """读取并拼接所有的 JS 模块文件，并注入 SDK 规则"""
+        files_order = ['bypass.js', 'network.js', 'file.js', 'privacy.js', 'antilock.js', 'sdk.js', 'loader.js']
+        
+        # 获取 frida_scripts 目录路径
+        base_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'frida_scripts')
+        full_source = ""
+        
+        try:
+            # 拼接所有 JS 文件
+            for filename in files_order:
+                file_path = os.path.join(base_path, filename)
+                if os.path.exists(file_path):
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        full_source += f"\n// --- FILE: {filename} ---\n"
+                        full_source += f.read() + "\n"
+                else:
+                    print(f"[!] Warning: JS Module not found: {filename}")
 
-    @classmethod
-    def _load_js_source(cls):
-        """加载并拼接JS脚本"""
-        source = []
-        for filename in cls.JS_FILES:
-            file_path = cls.SCRIPT_DIR / filename
-            if file_path.exists():
-                source.append(f"\n// --- FILE: {filename} ---\n{file_path.read_text(encoding='utf-8')}")
+            # 读取 SDK 规则 JSON 文件
+            rules_path = os.path.join(base_path, 'ios_sdk_rules.json')
+            rules_content = "[]" # 默认空数组，防止文件不存在导致 JS 语法错误
+            
+            if os.path.exists(rules_path):
+                with open(rules_path, 'r', encoding='utf-8') as f:
+                    # 读取内容，去掉可能的换行符，保证是合法的 JSON 字符串
+                    rules_content = f.read().strip()
             else:
-                logger.warning(f"JS Module not found: {filename}")
-        return "\n".join(source)
+                print("[!] Warning: ios_sdk_rules.json not found")
+
+            # 使用SDK特征规则替换 JS 中的占位符
+            full_source = full_source.replace('__SDK_RULES_JSON__', rules_content)
+
+        except Exception as e:
+            print(f"[!] JS Loading Error: {e}")
+            return None
+            
+        return full_source
 
     @classmethod
     def _get_process(cls, device, bundle_id):
@@ -73,12 +96,14 @@ class MonitorService:
                 'network': 'network_log',
                 'file': 'file_log',
                 'info': 'info_log',
+                'sdk': 'sdk_log',
+                'heart': 'heart_log',
                 'sys_log': 'sys_log'
             }
             if msg_type in event_map:
                 socketio.emit(event_map[msg_type], payload)
         elif message['type'] == 'error':
-            err_msg = message.get('description',Str(message))
+            err_msg = message.get('description',str(message))
             if 'destroyed' not in str(err_msg):
                 logger.error(f"Script Error: {err_msg}")
                 socketio.emit('sys_log', {'msg': f"脚本错误: {err_msg}"})

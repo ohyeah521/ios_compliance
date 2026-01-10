@@ -59,7 +59,7 @@ function startNetworkHook() {
                         method = request.HTTPMethod().toString();
                     }
 
-                    // 3. Headers (新增)
+                    // 3. Headers 
                     if (request.allHTTPHeaderFields && request.allHTTPHeaderFields()) {
                         headers = nsDictToObject(request.allHTTPHeaderFields());
                     }
@@ -133,7 +133,7 @@ function startNetworkHook() {
             "body": ""
         };
 
-        // --- 核心修改：只有存在 Header 时才写入字段 ---
+        // 只有存在 Header 时才写入字段
         if (hasHeaders) {
             logData["headers"] = finalHeaders;
         }
@@ -141,9 +141,6 @@ function startNetworkHook() {
         send(logData);
     }
 
-    // =================================================================
-    // 修改后的 NSURLSession Hook 逻辑
-    // =================================================================
     try {
         var sessionClass = ObjC.classes.NSURLSession;
         if (sessionClass) {

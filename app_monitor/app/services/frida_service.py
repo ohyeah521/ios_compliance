@@ -20,7 +20,7 @@ class IOSDeviceService:
             device = IOSDeviceService.get_device()
             print(f"[-] 成功连接设备: {device.name} (ID: {device.id})")
 
-            print("[-] 正在枚举应用 (scope='full')... 这可能需要几秒钟")
+            print("[-] 正在枚举应用... 这可能需要几秒钟")
             # 注意：scope='full' 会读取图标，速度较慢
             raw_apps = device.enumerate_applications(scope='full')
             print(f"[-] Frida 共扫描到 {len(raw_apps)} 个进程/应用")
@@ -36,7 +36,7 @@ class IOSDeviceService:
                 is_user_app = any(path.startswith(prefix) for prefix in Config.APP_PATH_PREFIXES)
                 
                 if is_user_app:
-                    print(f"[+] 匹配到用户应用: {name}")
+                    #print(f"[+] 匹配到用户应用: {name}")
                     
                     # 处理图标
                     icon_b64 = None

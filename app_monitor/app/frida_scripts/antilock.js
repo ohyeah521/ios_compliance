@@ -2,9 +2,9 @@
 // 防锁屏模块 (Anti-Lock)
 // 设置 UIApplication.idleTimerDisabled = YES
 // =================================================================
-console.log("[Anti-Lock] 加载模块: Anti-Lock");
 
 function startAntiLock() {
+    console.log("[Anti-Lock] 加载模块: Anti-Lock");
     if (!ObjC.available) return;
 
     // UI 操作必须在主线程执行

@@ -1,0 +1,4709 @@
+[
+  {
+    "category": [],
+    "file": [
+      "Flutter.framework"
+    ],
+    "name": "Flutter框架",
+    "class": []
+  },
+  {
+    "category": [
+      "身份认证类"
+    ],
+    "file": [
+      "TALAccSDK.bundle"
+    ],
+    "name": "好未来账号中心",
+    "class": []
+  },
+  {
+    "category": [
+      "身份认证类"
+    ],
+    "file": [],
+    "name": "极光短信验证码",
+    "class": [
+      "JSMSSDK"
+    ]
+  },
+  {
+    "category": [
+      "分享类"
+    ],
+    "file": [
+      "UMShare.framework"
+    ],
+    "name": "友盟社会化分享",
+    "class": [
+      "UMShareEmailObject",
+      "UMShareEmotionObject",
+      "UMShareExtendObject",
+      "UMShareFileObject",
+      "UMShareImageObject",
+      "UMShareLaunchMiniProgramObject",
+      "UMShareLink",
+      "UMShareMiniProgramObject",
+      "UMShareMusicObject",
+      "UMShareObject",
+      "UMShareSmsObject",
+      "UMShareTextObjectForGroup",
+      "UMShareVideoObject",
+      "UMShareWebpageObject",
+      "UMSocialAuthResponse",
+      "UMSocialCloudViewConfig",
+      "UMSocialCoreImageUtils",
+      "UMSocialDataManager",
+      "UMSocialHandler",
+      "UMSocialHandlerConfig",
+      "UMSocialImageUtil",
+      "UMSocialImageWarterMarkConfig",
+      "UMSocialManager",
+      "UMSocialMessageObject",
+      "UMSocialMessageObjectGroup",
+      "UMSocialPlatformConfig",
+      "UMSocialResponse",
+      "UMSocialShareEmailObjectConfig",
+      "UMSocialShareEmotionObjectConfig",
+      "UMSocialShareExtendObjectConfig",
+      "UMSocialShareFileObjectConfig",
+      "UMSocialShareImageObjectConfig",
+      "UMSocialShareMusicObjectConfig",
+      "UMSocialShareObjectConfig",
+      "UMSocialShareResponse",
+      "UMSocialShareSmsObjectConfig",
+      "UMSocialShareTextObjectConfig",
+      "UMSocialShareVideoObjectConfig",
+      "UMSocialShareWebpageObjectConfig",
+      "UMSocialStringWarterMarkConfig",
+      "UMSocialUserInfoResponse",
+      "UMSocialWarterMarkConfig"
+    ]
+  },
+  {
+    "category": [
+      "支付类"
+    ],
+    "file": [],
+    "name": "qq钱包",
+    "class": [
+      "QQWalletSDK"
+    ]
+  },
+  {
+    "category": [
+      "推送类"
+    ],
+    "file": [
+      "XGMTACloud.framework"
+    ],
+    "name": "腾讯移动推送",
+    "class": [
+      "XGInAppMessageManager",
+      "XGLocalNotification",
+      "XGNotificationAction",
+      "XGNotificationCategory",
+      "XGNotificationConfigure",
+      "XGNotificationContent",
+      "XGNotificationRequest",
+      "XGNotificationTrigger",
+      "XGPush",
+      "XGPushStatMTA",
+      "XGPushStatMTAConfig",
+      "XGPushTokenManager"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "网易云信 音视频通话",
+    "class": [
+      "INERtcEngine",
+      "INERtcChannel",
+      "NERtcChannelDelegate"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "HmsPushSdk.framework",
+      "HmsPushSdk"
+    ],
+    "name": "华为推送",
+    "class": [
+      "HmsInstanceId"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "MBProgressHUD",
+    "class": [
+      "MBProgressHUD",
+      "MBBackgroundView",
+      "MBProgressHUDDelegate"
+    ]
+  },
+  {
+    "category": [
+      "统计类"
+    ],
+    "file": [],
+    "name": "个数 应用统计",
+    "class": [
+      "GTCountSDK"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "DTMResource.bundle",
+      "DTMSDK.framework",
+      "DTMSDK"
+    ],
+    "name": "华为动态标签管理",
+    "class": [
+      "DTMLoggerProvider"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "IESLiveSaaSKit",
+      "IESLiveSaaSKit.bundle"
+    ],
+    "name": "抖音直播",
+    "class": [
+      "IESLiveSaaSAppInfoService",
+      "IESLiveSaaSLoginService"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类,地图导航类"
+    ],
+    "file": [
+      "BaiduPanoSDK.framework"
+    ],
+    "name": "百度全景",
+    "class": [
+      "BaiduLocationPanoData",
+      "BaiduPanoData",
+      "BaiduPanoDataFetcher",
+      "BaiduPanoImageOverlay",
+      "BaiduPanoLabelOverlay",
+      "BaiduPanoOverlay",
+      "BaiduPanoUtils",
+      "BaiduPanoramaView",
+      "BaiduPoiPanoData"
+    ]
+  },
+  {
+    "category": [
+      "分享类,基础能力类"
+    ],
+    "file": [],
+    "name": "极光魔链",
+    "class": [
+      "JMLinkConfig",
+      "JMLinkResponse",
+      "JMLinkService"
+    ]
+  },
+  {
+    "category": [
+      "推送类"
+    ],
+    "file": [],
+    "name": "极光推送",
+    "class": [
+      "JPUSHRegisterEntity",
+      "JPUSHService",
+      "JPushNotificationContent",
+      "JPushNotificationExtensionService",
+      "JPushNotificationIdentifier",
+      "JPushNotificationRequest",
+      "JPushNotificationSound",
+      "JPushNotificationTrigger"
+    ]
+  },
+  {
+    "category": [
+      "分享类,支付类,第三方登陆类"
+    ],
+    "file": [],
+    "name": "微信互联",
+    "class": [
+      "WXApi",
+      "WXAppExtendObject",
+      "WXCardItem",
+      "WXCheckULStepResult",
+      "WXChooseCardReq",
+      "WXChooseCardResp",
+      "WXChooseInvoiceReq",
+      "WXChooseInvoiceResp",
+      "WXEmoticonObject",
+      "WXFileObject",
+      "WXImageObject",
+      "WXInvoiceAuthInsertReq",
+      "WXInvoiceAuthInsertResp",
+      "WXInvoiceItem",
+      "WXLaunchMiniProgramReq",
+      "WXLaunchMiniProgramResp",
+      "WXLocationObject",
+      "WXMediaMessage",
+      "WXMiniProgramObject",
+      "WXMusicObject",
+      "WXNontaxPayResp",
+      "WXOfflinePayReq",
+      "WXOfflinePayResp",
+      "WXOpenBusinessViewReq",
+      "WXOpenBusinessViewResp",
+      "WXOpenBusinessWebViewReq",
+      "WXOpenBusinessWebViewResp",
+      "WXPayInsuranceReq",
+      "WXPayInsuranceResp",
+      "WXSubscribeMiniProgramMsgReq",
+      "WXSubscribeMiniProgramMsgResp",
+      "WXSubscribeMsgReq",
+      "WXSubscribeMsgResp",
+      "WXTextObject",
+      "WXVideoObject",
+      "WXWebpageObject",
+      "WechatAuthSDK"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "AppsFlyerLib"
+    ],
+    "name": "appsFlyer",
+    "class": [
+      "AppsFlyerCrossPromotionHelper",
+      "AppsFlyerDeepLink",
+      "AppsFlyerDeepLinkResult",
+      "AppsFlyerLib",
+      "AppsFlyerLinkGenerator",
+      "AppsFlyerShareInviteHelper"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "腾讯优量汇",
+    "class": [
+      "GDTSDKConfig",
+      "GDTAdParams",
+      "GDTSplashAd"
+    ]
+  },
+  {
+    "category": [
+      "统计类"
+    ],
+    "file": [
+      "SensorsAnalyticsSDK.bundle"
+    ],
+    "name": "神策分析",
+    "class": [
+      "SAAppClickTracker",
+      "SAAppEndTracker",
+      "SAAppExtensionDataManager",
+      "SAAppLifecycle",
+      "SAAppPageLeaveTracker",
+      "SAAppPushManager",
+      "SAAppStartTracker",
+      "SAAppTracker",
+      "SAAppViewScreenTracker",
+      "SAApplication",
+      "SAApplicationDelegateProxy"
+    ]
+  },
+  {
+    "category": [
+      "支付类"
+    ],
+    "file": [],
+    "name": "连连支付",
+    "class": [
+      "LLAPPaySDK"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "AFNetworking",
+    "class": [
+      "AFHTTPSessionManager",
+      "AFNetworkReachabilityManager",
+      "AFSecurityPolicy",
+      "AFHTTPRequestSerializer",
+      "AFJSONRequestSerializer",
+      "AFPropertyListRequestSerializer",
+      "AFHTTPResponseSerializer",
+      "AFJSONResponseSerializer",
+      "AFXMLParserResponseSerializer",
+      "AFXMLDocumentResponseSerializer",
+      "AFPropertyListResponseSerializer",
+      "AFImageResponseSerializer",
+      "AFCompoundResponseSerializer",
+      "AFURLSessionManager",
+      "AFAutoPurgingImageCache",
+      "AFImageDownloadReceipt",
+      "AFImageDownloader",
+      "AFNetworkActivityIndicatorManager"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "网易云信 直播点播",
+    "class": [
+      "NOSBucketLBSMap",
+      "NOSConfig",
+      "NOSFileRecorder",
+      "NOSHttpManager",
+      "NOSIPToLong",
+      "NOSIPUtils",
+      "NOSLbsInfo",
+      "NOSLbsNetMonitorTask",
+      "NOSLbsTask",
+      "NOSResponseInfo",
+      "NOSResumeUpload",
+      "NOSStatTimeTask",
+      "NOSStatisticsItems",
+      "NOSTimeUtils",
+      "NOSUploadManager",
+      "NOSUploadOption",
+      "NOSUrlCode",
+      "NOSVcloudHttpManager"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "ZBar",
+    "class": [
+      "ZBarReaderViewController",
+      "ZBarImage",
+      "ZBarImageScanner"
+    ]
+  },
+  {
+    "category": [
+      "分享类"
+    ],
+    "file": [
+      "ShareSDKConnector.framework",
+      "ShareSDK.framework"
+    ],
+    "name": "mobshare",
+    "class": [
+      "ShareSDKConnector",
+      "SSDKAuthViewManager",
+      "SSDKAuthViewStyle",
+      "SSDKContentEntity",
+      "SSDKCredential",
+      "SSDKDataModel",
+      "SSDKImage",
+      "SSDKRegister",
+      "SSDKSession",
+      "SSDKShareVideoModel",
+      "SSDKUser",
+      "SSDKUserQueryCondition"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "MJExtension",
+    "class": [
+      "MJTester",
+      "MJExtension"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "百度增强现实",
+    "class": [
+      "BARGestureView",
+      "BARImageMovieWriter",
+      "BARMainController",
+      "BARSDKConfiguration",
+      "BARSDKDownLoadObj",
+      "BARSDKObj",
+      "BARSDKPro",
+      "BARVideoRecorder",
+      "BARVideoRecorderSettings",
+      "BARVideoWriter"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "DIOpenSDK.bundle",
+      "DIOpenSDK"
+    ],
+    "name": "滴滴出行",
+    "class": [
+      "DIBaseModel",
+      "DIOpenSDK",
+      "DIOpenSDKRegisterOptions"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "AgoraRtmKit",
+      "AgoraRtmKit.bundle"
+    ],
+    "name": "agora realtime",
+    "class": [
+      "AgoraRtmKit",
+      "AgoraRtmFileMessage",
+      "AgoraRtmMessage"
+    ]
+  },
+  {
+    "category": [
+      "分享类,三方登录类"
+    ],
+    "file": [
+      "FacebookSDKStrings.bundle",
+      "FacebookSDK.strings",
+      "FacebookSDK",
+      "FacebookSDK"
+    ],
+    "name": "facebook",
+    "class": [
+      "FBSDKReferralManager",
+      "FBSDKDeviceLoginManagerResult",
+      "FBLoginButton",
+      "FBSDKLoginButton",
+      "FBSDKDeviceLoginManager",
+      "FBSDKReferralManagerResult",
+      "FBSDKTooltipView",
+      "FBSDKLoginManager",
+      "FBSDKDeviceLoginCodeInfo",
+      "FBSDKReferralCode",
+      "FBSDKLoginTooltipView",
+      "FBSDKLoginManagerLoginResult",
+      "FBSDKSendButton",
+      "FBSDKGameRequestDialog",
+      "FBSDKShareVideo",
+      "FBSDKShareMediaContent",
+      "FBSDKAppGroupContent",
+      "FBSDKAppInviteContent",
+      "FBSDKShareDialog",
+      "FBSDKShareVideoContent",
+      "FBSDKSharePhoto",
+      "FBSDKMessageDialog",
+      "FBSDKCameraEffectTextures",
+      "FBSDKShareCameraEffectContent",
+      "FBSDKShareLinkContent",
+      "FBSDKCameraEffectArguments",
+      "FBSDKSharePhotoContent",
+      "FBSDKShareButton",
+      "FBSDKGameRequestContent",
+      "FBSDKHashtag",
+      "FBSDKDeviceShareViewController",
+      "FBSDKDeviceShareButton",
+      "FBSDKDeviceViewControllerBase",
+      "FBSDKTestUsersManager",
+      "FBSDKAppEvents",
+      "FBSDKAccessToken",
+      "FBSDKUtility",
+      "FBSDKSettings",
+      "FBSDKApplicationDelegate",
+      "FBSDKDeviceButton",
+      "FBSDKGraphRequestDataAttachment",
+      "FBSDKGraphRequestConnection",
+      "FBSDKGraphRequest",
+      "FBSDKButton",
+      "FBSDKTVLoginButtonElement",
+      "FBSDKDeviceLoginViewController",
+      "FBSDKJS",
+      "FBSDKDeviceLoginButton",
+      "FBSDKTVShareButtonElement",
+      "FBSDKTVInterfaceFactory",
+      "FBSDKTVLoginViewControllerElement",
+      "FBSDKWebViewAppLinkResolver",
+      "FBSDKAppLinkReturnToRefererView",
+      "FBSDKURL",
+      "FBSDKAppLinkTarget",
+      "FBSDKAppLinkNavigation",
+      "FBSDKAppLinkReturnToRefererController",
+      "FBSDKAppLinkUtility",
+      "FBSDKMeasurementEvent",
+      "FBSDKAppLinkResolver",
+      "FBSDKGraphErrorRecoveryProcessor",
+      "FBSDKProfile",
+      "FBSDKProfilePictureView",
+      "FBSDKAppLinkResolverRequestBuilder",
+      "FBSDKAppLink",
+      "FBSDKGamingVideoUploaderConfiguration",
+      "FBSDKGamingImageUploader",
+      "FBSDKGamingImageUploaderConfiguration",
+      "FBSDKFriendFinderDialog",
+      "FBSDKGamingVideoUploader",
+      "FBSDKGamingGroupIntegration"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类,辅助开发类"
+    ],
+    "file": [
+      "AliyunOSSiOS.framework"
+    ],
+    "name": "阿里云文件上传服务",
+    "class": [
+      "OSSAbortMultipartUploadRequest",
+      "OSSAbortMultipartUploadResult",
+      "OSSAllRequestNeededMessage",
+      "OSSAppendObjectRequest",
+      "OSSAppendObjectResult",
+      "OSSAuthCredentialProvider",
+      "OSSCallBackRequest",
+      "OSSCallBackResult",
+      "OSSCancellationToken",
+      "OSSCancellationTokenRegistration",
+      "OSSCancellationTokenSource",
+      "OSSClient",
+      "OSSClientConfiguration",
+      "OSSCompleteMultipartUploadRequest",
+      "OSSCompleteMultipartUploadResult",
+      "OSSCopyObjectRequest",
+      "OSSCopyObjectResult",
+      "OSSCreateBucketRequest",
+      "OSSCreateBucketResult",
+      "OSSCustomSignerCredentialProvider",
+      "OSSDDAbstractLogger",
+      "OSSDDFileLogger",
+      "OSSDDLog",
+      "OSSDDLogFileFormatterDefault",
+      "OSSDDLogFileInfo",
+      "OSSDDLogFileManagerDefault",
+      "OSSDDLogMessage",
+      "OSSDDLoggerInformation",
+      "OSSDeleteBucketRequest",
+      "OSSDeleteBucketResult",
+      "OSSDeleteMultipleObjectsRequest",
+      "OSSDeleteMultipleObjectsResult",
+      "OSSDeleteObjectRequest",
+      "OSSDeleteObjectResult",
+      "OSSExecutor",
+      "OSSFederationCredentialProvider",
+      "OSSFederationToken",
+      "OSSGetBucketACLRequest",
+      "OSSGetBucketACLResult",
+      "OSSGetBucketRequest",
+      "OSSGetBucketResult",
+      "OSSGetObjectACLRequest",
+      "OSSGetObjectACLResult",
+      "OSSGetObjectRequest",
+      "OSSGetObjectResult",
+      "OSSGetServiceRequest",
+      "OSSGetServiceResult",
+      "OSSHeadObjectRequest",
+      "OSSHeadObjectResult",
+      "OSSHttpResponseParser",
+      "OSSHttpdns",
+      "OSSIPv6Adapter",
+      "OSSIPv6PrefixResolver",
+      "OSSImagePersistRequest",
+      "OSSImagePersistResult",
+      "OSSInitMultipartUploadRequest",
+      "OSSInitMultipartUploadResult",
+      "OSSListMultipartUploadsRequest",
+      "OSSListMultipartUploadsResult",
+      "OSSListPartsRequest",
+      "OSSListPartsResult",
+      "OSSLog",
+      "OSSMultipartUploadRequest",
+      "OSSNSLogger",
+      "OSSNetworking",
+      "OSSNetworkingConfiguration",
+      "OSSNetworkingRequestDelegate",
+      "OSSPartInfo",
+      "OSSPlainTextAKSKPairCredentialProvider",
+      "OSSPutObjectACLRequest",
+      "OSSPutObjectACLResult",
+      "OSSPutObjectRequest",
+      "OSSPutObjectResult",
+      "OSSRange",
+      "OSSReachability",
+      "OSSReachabilityManager",
+      "OSSRequest",
+      "OSSResult",
+      "OSSResumableUploadRequest",
+      "OSSResumableUploadResult",
+      "OSSSignerInterceptor",
+      "OSSStsTokenCredentialProvider",
+      "OSSSyncMutableDictionary",
+      "OSSTimeSkewedFixingInterceptor",
+      "OSSUASettingInterceptor",
+      "OSSURLRequestRetryHandler",
+      "OSSUploadPartRequest",
+      "OSSUploadPartResult",
+      "OSSUtil",
+      "OSSXMLDictionaryParser"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "网易云信即时通信",
+    "class": [
+      "NIMChatroom",
+      "NIMMessage"
+    ]
+  },
+  {
+    "category": [
+      "安全风控类"
+    ],
+    "file": [
+      "DXKeyboard.bundle"
+    ],
+    "name": "顶象安全键盘",
+    "class": [
+      "DXKeyboardEvent",
+      "DXSafeKeyboard"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "阿里啄木鸟",
+    "class": [
+      "YKWoodpeckerManager",
+      "YKWPluginProtocol"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "SDWebImage",
+    "class": [
+      "SDAnimatedImage",
+      "SDAnimatedImagePlayer",
+      "SDAnimatedImageRep",
+      "SDAnimatedImageView",
+      "SDDiskCache",
+      "SDGraphicsImageRendererFormat",
+      "SDGraphicsImageRenderer",
+      "SDImageAPNGCoder",
+      "SDImageAWebPCoder",
+      "SDImageCache",
+      "SDImageCacheConfig",
+      "SDImageCachesManager",
+      "SDImageCoderHelper",
+      "SDImageCodersManager",
+      "SDImageFrame",
+      "SDImageGIFCoder",
+      "SDImageHEICCoder",
+      "SDImageIOAnimatedCoder",
+      "SDImageIOCoder",
+      "SDImageLoadersManager",
+      "SDImagePipelineTransformer",
+      "SDImageRoundCornerTransformer",
+      "SDImageResizingTransformer",
+      "SDImageCroppingTransformer",
+      "SDImageFlippingTransformer",
+      "SDImageRotationTransformer",
+      "SDImageTintTransformer",
+      "SDImageBlurTransformer",
+      "SDImageFilterTransformer",
+      "SDMemoryCache",
+      "SDWebImageCacheKeyFilter",
+      "SDWebImageCacheSerializer",
+      "SDWebImageDownloadToken",
+      "SDWebImageDownloader",
+      "SDWebImageDownloaderConfig",
+      "SDWebImageDownloaderDecryptor",
+      "SDWebImageDownloaderOperation",
+      "SDWebImageDownloaderRequestModifier",
+      "SDWebImageDownloaderResponseModifier",
+      "SDWebImageActivityIndicator",
+      "SDWebImageProgressIndicator",
+      "SDWebImageCombinedOperation",
+      "SDWebImageManager",
+      "SDWebImageOptionsResult",
+      "SDWebImageOptionsProcessor",
+      "SDWebImagePrefetchToken",
+      "SDWebImagePrefetcher",
+      "SDWebImageTransition",
+      "SDAsyncBlockOperation",
+      "SDDeviceHelper",
+      "SDDisplayLink",
+      "SDFileAttributeHelper",
+      "SDImageAssetManager",
+      "SDImageCachesManagerOperation",
+      "SDWeakProxy"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类"
+    ],
+    "file": [
+      "uni_account_login_res.bundle",
+      "account_login_sdk_core.framework"
+    ],
+    "name": "中国联通一键登录",
+    "class": [
+      "UniAuthHelper",
+      "UniAuthViewModel",
+      "UniPrivacyTermItem"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类,地图导航类"
+    ],
+    "file": [
+      "BMKLocationKit.framework"
+    ],
+    "name": "百度定位",
+    "class": [
+      "BMKGeoFenceCircleRegion",
+      "BMKGeoFenceManager",
+      "BMKGeoFencePolygonRegion",
+      "BMKGeoFenceRegion",
+      "BMKLocation",
+      "BMKLocationAuth",
+      "BMKLocationManager",
+      "BMKLocationPoi",
+      "BMKLocationPoiRegion",
+      "BMKLocationReGeocode"
+    ]
+  },
+  {
+    "category": [
+      "客服类,推送类,统计类"
+    ],
+    "file": [
+      "QYResource.bundle",
+      "QYSDK.framework"
+    ],
+    "name": "网易七鱼",
+    "class": [
+      "QYAction",
+      "QYButtonInfo",
+      "QYCommodityInfo",
+      "QYCommodityTag",
+      "QYConversationManager",
+      "QYCustomActionConfig",
+      "QYCustomCommodityInfo",
+      "QYCustomContentView",
+      "QYCustomEvent",
+      "QYCustomInputItem",
+      "QYCustomMessage",
+      "QYCustomModel",
+      "QYCustomUIConfig",
+      "QYEvaluactionData",
+      "QYEvaluactionResult",
+      "QYEvaluationOptionData",
+      "QYMessageInfo",
+      "QYPushMessage",
+      "QYSDK",
+      "QYSDKOption",
+      "QYSelectedCommodityInfo",
+      "QYServerSetting",
+      "QYSessionInfo",
+      "QYSessionViewController",
+      "QYSource",
+      "QYStaffInfo",
+      "QYUserInfo",
+      "QYWorkOrderListViewController"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "GMGridView",
+    "class": [
+      "GMGridView",
+      "GMGridViewCell",
+      "GMGridViewDataSource",
+      "GMGridViewActionDelegate",
+      "GMGridViewSortingDelegate"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "ADSuyiKSFull"
+    ],
+    "name": "ADmobile 苏伊士广告",
+    "class": [
+      "ADSuyiSDKSplashAd"
+    ]
+  },
+  {
+    "category": [
+      "分享类"
+    ],
+    "file": [],
+    "name": "极光分享",
+    "class": [
+      "JSHARELaunchConfig",
+      "JSHAREMessage",
+      "JSHAREService",
+      "JSHARESocial",
+      "JSHARESocialUserInfo"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类,地图导航类"
+    ],
+    "file": [
+      "AMapTrackKit.framework"
+    ],
+    "name": "高德猎鹰",
+    "class": [
+      "AMapTrackAddTerminalRequest",
+      "AMapTrackAddTerminalResponse",
+      "AMapTrackAddTrackRequest",
+      "AMapTrackAddTrackResponse",
+      "AMapTrackBaseRequest",
+      "AMapTrackBaseResponse",
+      "AMapTrackBasicTrack",
+      "AMapTrackDeleteTrackRequest",
+      "AMapTrackManager",
+      "AMapTrackManagerOptions",
+      "AMapTrackManagerServiceOption",
+      "AMapTrackObject",
+      "AMapTrackPoint",
+      "AMapTrackQueryLastPointRequest",
+      "AMapTrackQueryLastPointResponse",
+      "AMapTrackQueryTerminalRequest",
+      "AMapTrackQueryTerminalResponse",
+      "AMapTrackQueryTrackDistanceRequest",
+      "AMapTrackQueryTrackDistanceResponse",
+      "AMapTrackQueryTrackHistoryAndDistanceRequest",
+      "AMapTrackQueryTrackHistoryAndDistanceResponse",
+      "AMapTrackQueryTrackInfoRequest",
+      "AMapTrackQueryTrackInfoResponse",
+      "AMapTrackTerminal"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "openinstall",
+    "class": [
+      "OpenInstallSDK",
+      "OpenInstallDelegate"
+    ]
+  },
+  {
+    "category": [
+      "推送类"
+    ],
+    "file": [
+      "UMPush.framework"
+    ],
+    "name": "友盟推送",
+    "class": [
+      "UMessage",
+      "UMessageRegisterEntity"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "HiAnalytics",
+      "HiAnalytics.framework"
+    ],
+    "name": "华为分析服务",
+    "class": [
+      "HiAnalytics"
+    ]
+  },
+  {
+    "category": [
+      "广告类"
+    ],
+    "file": [
+      "BUAdSDK.framework",
+      "BUFoundation.framework",
+      "BUAdSDK.bundle",
+      "BUCNAuxiliary.framework"
+    ],
+    "name": "穿山甲广告",
+    "class": [
+      "BUAdSDKConfiguration",
+      "BUAdSDKManager",
+      "BUAdSDKPlayableToolManager",
+      "BUAdSDKTestToolManager",
+      "BUAdSlot",
+      "BUAdSmartlookManager",
+      "BUAudioSessionHandler",
+      "BUAudioSessionSetting",
+      "BUBaseRequest",
+      "BUCacheManager",
+      "BUConditionTracker",
+      "BUDislike",
+      "BUDislikeReportor",
+      "BUDislikeWords",
+      "BUDownloadSpeedModel",
+      "BUDownloadSpeedServer",
+      "BUDynamicPlugin",
+      "BUEnvironment",
+      "BUFoundationAddress",
+      "BUFullscreenVideoAd",
+      "BUGeckoManager",
+      "BUGeckoPreloadManager",
+      "BUGifImage",
+      "BUGifImageView",
+      "BUImage",
+      "BUImageUtility",
+      "BUJSBCommand",
+      "BUJSBForwarding",
+      "BUJSInjector",
+      "BULogManager",
+      "BUMaterialMeta",
+      "BUNativeAd",
+      "BUNativeAdRelatedView",
+      "BUNativeAdsManager",
+      "BUNativeExpressAdManager",
+      "BUNativeExpressAdView",
+      "BUNativeExpressBannerView",
+      "BUNativeExpressFullscreenVideoAd",
+      "BUNativeExpressInterstitialAd",
+      "BUNativeExpressRewardedVideoAd",
+      "BUNativeExpressSplashView",
+      "BUNetworkRequest",
+      "BUPersistence",
+      "BUPersistenceOption",
+      "BUPersonalizationPrompts",
+      "BUPlayer",
+      "BUPlayerItem",
+      "BUQueueManager",
+      "BUQueueManagerConfig",
+      "BUReachability",
+      "BURewardedVideoAd",
+      "BURewardedVideoModel",
+      "BURouter",
+      "BUScreenHelper",
+      "BUSize",
+      "BUSplashAdView",
+      "BUSplashZoomOutView",
+      "BUStaticPlugin",
+      "BUTNCRequestParam",
+      "BUTNCServiceConfig",
+      "BUTNCServiceManager",
+      "BUThreadSafeDictionary",
+      "BUThreadSafeMutableArray",
+      "BUTimer",
+      "BUUIResponderHelper",
+      "BUUserAgentHelper",
+      "BUVideoAdView",
+      "BUVideoPrefetchManager",
+      "BUWKWebView",
+      "BUWebImageDataCacheManager",
+      "BUWebViewProgressView",
+      "BUZipArchive",
+      "BU_AFAutoPurgingImageCache",
+      "BU_AFCompoundResponseSerializer",
+      "BU_AFHTTPRequestSerializer",
+      "BU_AFHTTPResponseSerializer",
+      "BU_AFHTTPSessionManager",
+      "BU_AFImageResponseSerializer",
+      "BU_AFJSONRequestSerializer",
+      "BU_AFJSONResponseSerializer",
+      "BU_AFSecurityPolicy",
+      "BU_AFURLSessionManager",
+      "BU_SDAnimatedImage",
+      "BU_SDAnimatedImageRep",
+      "BU_SDAnimatedImageView",
+      "BU_SDAsyncBlockOperation",
+      "BU_SDDiskCache",
+      "BU_SDImageAPNGCoder",
+      "BU_SDImageAssetManager",
+      "BU_SDImageBlurTransformer",
+      "BU_SDImageCache",
+      "BU_SDImageCacheConfig",
+      "BU_SDImageCachesManager",
+      "BU_SDImageCachesManagerOperation",
+      "BU_SDImageCoderHelper",
+      "BU_SDImageCodersManager",
+      "BU_SDImageCroppingTransformer",
+      "BU_SDImageFilterTransformer",
+      "BU_SDImageFlippingTransformer",
+      "BU_SDImageFrame",
+      "BU_SDImageGIFCoder",
+      "BU_SDImageIOCoder",
+      "BU_SDImageLoadersManager",
+      "BU_SDImagePipelineTransformer",
+      "BU_SDImageResizingTransformer",
+      "BU_SDImageRotationTransformer",
+      "BU_SDImageRoundCornerTransformer",
+      "BU_SDImageTintTransformer",
+      "BU_SDMemoryCache",
+      "BU_SDWeakProxy",
+      "BU_SDWebImageActivityIndicator",
+      "BU_SDWebImageCacheKeyFilter",
+      "BU_SDWebImageCacheSerializer",
+      "BU_SDWebImageCombinedOperation",
+      "BU_SDWebImageDownloadToken",
+      "BU_SDWebImageDownloader",
+      "BU_SDWebImageDownloaderConfig",
+      "BU_SDWebImageDownloaderOperation",
+      "BU_SDWebImageDownloaderRequestModifier",
+      "BU_SDWebImageManager",
+      "BU_SDWebImageOptionsProcessor",
+      "BU_SDWebImageOptionsResult",
+      "BU_SDWebImagePrefetchToken",
+      "BU_SDWebImagePrefetcher",
+      "BU_SDWebImageProgressIndicator",
+      "BU_SDWebImageTransition",
+      "BU_ZFImageDownloader",
+      "BU_ZFPlayerControlView"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "秒针",
+    "class": [
+      "MZMonitor"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类,人脸识别类,"
+    ],
+    "file": [
+      "MGFacePPFaceDetect.framework",
+      "MGFacePPHandDetect.framework",
+      "MGFacePPKernel.framework",
+      "MGFacePPMultiBase.framework",
+      "MGFacePPSceneDetect.framework",
+      "MGFacePPSegmentImage.framework",
+      "MGFacePPSkeletonDetect.framework"
+    ],
+    "name": "Face++ 多合一",
+    "class": [
+      "MGDenseDescriptor",
+      "MGDenseLandmarks",
+      "MGDenseResultDetail",
+      "MGFaceDetectConfig",
+      "MGFaceDetectManager",
+      "MGFaceExtraResult",
+      "MGFaceEyeStatus",
+      "MGFaceGaze",
+      "MGFaceGender",
+      "MGFaceHandleManager",
+      "MGFaceInfo",
+      "MGFaceMouthStatus",
+      "MGFacePPCommon",
+      "MGFacePPDenseManager",
+      "MGFacePPHandManager",
+      "MGFacePPImage",
+      "MGFacePPLicenseManager",
+      "MGFacePPPoint",
+      "MGFacePPSceneManager",
+      "MGFacePPSegmentConfig",
+      "MGFacePPSegmentManager",
+      "MGFacePPSkeletonManager",
+      "MGFacePose",
+      "MGFaceProbability",
+      "MGHandConfig",
+      "MGHandKeypointInfo",
+      "MGHandResult",
+      "MGImageHelper",
+      "MGProbability",
+      "MGSceneResult",
+      "MGSceneResultItems",
+      "MGSkeletonModelConfig",
+      "MGSkeletonPoint3F",
+      "MGSkeletonResult"
+    ]
+  },
+  {
+    "category": [
+      "统计类"
+    ],
+    "file": [
+      "UMAnalyticsGame.framework"
+    ],
+    "name": "友盟游戏统计",
+    "class": [
+      "MobClickGameAnalytics"
+    ]
+  },
+  {
+    "category": [
+      "分享类"
+    ],
+    "file": [
+      "YZBaseSDK.framework",
+      "YZSDKCore.framework"
+    ],
+    "name": "有赞",
+    "class": [
+      "YZConfig",
+      "YZGrowingAnalytics",
+      "YZHTMLConfig",
+      "YZIMWebViewController",
+      "YZNotice",
+      "YZSAFNetworkReachabilityManager",
+      "YZSDK",
+      "YZSHUD",
+      "YZSJSONKeyMapper",
+      "YZSJSONModel",
+      "YZSJSONModelError",
+      "YZSJSONValueTransformer",
+      "YZSLog",
+      "YZSMBBackgroundView",
+      "YZSMBBarProgressView",
+      "YZSMBProgressHUD",
+      "YZSMBRoundProgressView",
+      "YZWebView",
+      "YZWebViewBase"
+    ]
+  },
+  {
+    "category": [
+      "即时通讯类"
+    ],
+    "file": [
+      "QMLineSDK.framework"
+    ],
+    "name": "容联七陌客服",
+    "class": [
+      "QMAgent",
+      "QMConnect",
+      "QMEvaluation",
+      "QMEvaluats",
+      "QMLineError",
+      "QMSessionOption"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类"
+    ],
+    "file": [
+      "LBLelinkKit.framework"
+    ],
+    "name": "乐播投屏",
+    "class": [
+      "LBADInfo",
+      "LBADInterface",
+      "LBDecodabilityModel",
+      "LBLelinkBrowser",
+      "LBLelinkCast",
+      "LBLelinkConnection",
+      "LBLelinkKit",
+      "LBLelinkPlayer",
+      "LBLelinkPlayerItem",
+      "LBLelinkProgressInfo",
+      "LBLelinkService",
+      "LBLelinkTextBarrage",
+      "LBMonitorAction",
+      "LBPlayerAesModel",
+      "LBSubADInfo"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "WPKMobi"
+    ],
+    "name": "岳鹰全景监控",
+    "class": [
+      "WPKSetup"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "HelpDesk",
+      "HelpDesk.bundle"
+    ],
+    "name": "环信客服云",
+    "class": []
+  },
+  {
+    "category": [
+      "基础能力类,地图导航类"
+    ],
+    "file": [],
+    "name": "百度导航",
+    "class": [
+      "BNCarOneRouteModel",
+      "BNCarRouteDataUtil",
+      "BNCarRouteModel",
+      "BNCarRouteNode",
+      "BNCarRouteStepModel",
+      "BNGCJPosition",
+      "BNHeading",
+      "BNKMNaviSpeed",
+      "BNLightOneRouteModel",
+      "BNLightRoutesModel",
+      "BNLocation",
+      "BNNaviMsgBase",
+      "BNPosition",
+      "BNRouteDetailInfo",
+      "BNRouteItem",
+      "BNRoutePlanNode",
+      "BNUtility",
+      "BNYellowTipsInfo",
+      "BNYellowTipsInfoGroup",
+      "BNaviCalcRouteTime",
+      "BNaviCarPosition",
+      "BNaviCurrentRoadName",
+      "BNaviDirectionBoard",
+      "BNaviFinishPageModel",
+      "BNaviGPSChange",
+      "BNaviHighwayBoard",
+      "BNaviInHighwayBoard",
+      "BNaviLaneInfo",
+      "BNaviMainSlave",
+      "BNaviMapItemData",
+      "BNaviMapRefreshInfo",
+      "BNaviMessageHelper",
+      "BNaviModel",
+      "BNaviPassViaPointInfo",
+      "BNaviRasterExpandMap",
+      "BNaviRemainInfo",
+      "BNaviRemainTrafficlightsInfo",
+      "BNaviService",
+      "BNaviSimpleGuideInfo",
+      "BNaviStatusInfo",
+      "BNaviTruckTrafficSignInfo",
+      "BNaviVectorExpandMap"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "AnalysysAgent.bundle"
+    ],
+    "name": "易观方舟智能分析",
+    "class": [
+      "AnalysysAgent"
+    ]
+  },
+  {
+    "category": [
+      "支付类,数据分析类,分享类,第三方登录类,广告类"
+    ],
+    "file": [
+      "WeiboSDK.bundle"
+    ],
+    "name": "微博开放平台",
+    "class": [
+      "WBHttpRequest",
+      "WeiboSDK",
+      "WBDataTransferObject",
+      "WBBaseRequest",
+      "WBBaseResponse",
+      "WBAuthorizeRequest",
+      "WBAuthorizeResponse",
+      "WBProvideMessageForWeiboRequest",
+      "WBProvideMessageForWeiboResponse",
+      "WBSendMessageToWeiboRequest",
+      "WBSendMessageToWeiboResponse",
+      "WBShareMessageToContactRequest",
+      "WBShareMessageToContactResponse",
+      "WBMessageObject",
+      "WBImageObject",
+      "WBNewVideoObject",
+      "WBBaseMediaObject",
+      "WBWebpageObject"
+    ]
+  },
+  {
+    "category": [
+      "框架类"
+    ],
+    "file": [
+      "AlibcTradeBaseContainer.framework",
+      "AlibcTradeCommonSDK.framework",
+      "AlibcTradeContainer.framework",
+      "AlibcTrademiniAppContainer.framework",
+      "AlibcTradeUltimateBizSDK.framework",
+      "AlibcTradeUltimateSDK.framework",
+      "AlibcTradeWebViewContainer.framework"
+    ],
+    "name": "阿里百川",
+    "class": [
+      "AlibcBaseContainer",
+      "AlibcChannelModule",
+      "AlibcChannelUrlUtils",
+      "AlibcConfig",
+      "AlibcError",
+      "AlibcImage",
+      "AlibcJSON",
+      "AlibcJSONModel",
+      "AlibcJSONModelError",
+      "AlibcJSONModelKeyMapper",
+      "AlibcJSONModelProperty",
+      "AlibcLog",
+      "AlibcMtopAuthGetToken",
+      "AlibcMtopBridge",
+      "AlibcMtopCmd",
+      "AlibcMtopCmdDef",
+      "AlibcMtopRequestHelp",
+      "AlibcNetError",
+      "AlibcNetMock",
+      "AlibcNetPacketHttpHeader",
+      "AlibcNetServiceBase",
+      "AlibcNetServiceMtop",
+      "AlibcNumber",
+      "AlibcOpenNativeFailedMode",
+      "AlibcRSA",
+      "AlibcReflectionUtil",
+      "AlibcSecurityGuardBridge",
+      "AlibcSimpleWebViewController",
+      "AlibcString",
+      "AlibcThread",
+      "AlibcTrackParams",
+      "AlibcTradeBizParamService",
+      "AlibcTradeBuildUrlRequestManager",
+      "AlibcTradeCommon",
+      "AlibcTradeConfigService",
+      "AlibcTradeContainerAppInfoModel",
+      "AlibcTradeContainerBridgeEventContextModel",
+      "AlibcTradeContainerBridgeEventHandleResult",
+      "AlibcTradeContainerContextModel",
+      "AlibcTradeContainerDataSource",
+      "AlibcTradeContainerManager",
+      "AlibcTradeContainerProcessUrlResult",
+      "AlibcTradeESBaseModel",
+      "AlibcTradeESConfigModel",
+      "AlibcTradeESDynamicPluginModel",
+      "AlibcTradeESFuncsConfigModel",
+      "AlibcTradeESSuitConfigModel",
+      "AlibcTradeGetAppSuiteConfigCmd",
+      "AlibcTradeListenerFactory",
+      "AlibcTradeListenerItem",
+      "AlibcTradeLoginBridge",
+      "AlibcTradeMiniAppURLRouter",
+      "AlibcTradeOpenUrlContextModel",
+      "AlibcTradeOpenUrlHandleCenter",
+      "AlibcTradeReachability",
+      "AlibcTradeRouterConfigModel",
+      "AlibcTradeSDKActionModel",
+      "AlibcTradeSDKActionParamModel",
+      "AlibcTradeSDKCodeConfigModel",
+      "AlibcTradeSDKConfigModel",
+      "AlibcTradeSDKUrlTypeConfigModel",
+      "AlibcTradeShowParams",
+      "AlibcTradeTaokeParams",
+      "AlibcTradeUltimateBiz",
+      "AlibcTradeUltimateSDK",
+      "AlibcTradeUrlBizModel",
+      "AlibcTradeUrlHandleModel",
+      "AlibcTradeUrlParams",
+      "AlibcURL",
+      "AlibcURLActionRequest",
+      "AlibcURLActionResponse",
+      "AlibcURLHandRequest",
+      "AlibcURLHandleUtil",
+      "AlibcURLOpenAction",
+      "AlibcURLProcessResult",
+      "AlibcURLRouter",
+      "AlibcURLRouterItem",
+      "AlibcUT",
+      "AlibcUser",
+      "AlibcVCUtils"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "云金",
+    "class": [
+      "JLRCs"
+    ]
+  },
+  {
+    "category": [
+      "统计类"
+    ],
+    "file": [
+      "UMAPM.framework"
+    ],
+    "name": "友盟应用性能监控",
+    "class": [
+      "UMAPMConfig",
+      "UMCrashConfigure",
+      "UMLaunch"
+    ]
+  },
+  {
+    "category": [
+      "安全风控类"
+    ],
+    "file": [
+      "DeepKnowSDK.framework"
+    ],
+    "name": "geetest 深知",
+    "class": [
+      "DeepKnow"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "mmachina 数字广告测量及验证统一",
+    "class": [
+      "MobileTracking"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "迅游手游加速",
+    "class": []
+  },
+  {
+    "category": [
+      "安全风控类"
+    ],
+    "file": [
+      "GT3Captcha.framework",
+      "GT3Captcha.bundle",
+      "GTCaptcha4.framework",
+      "GT4Captcha4.Bundle"
+    ],
+    "name": "geetest 验证",
+    "class": [
+      "GT3CaptchaButton",
+      "GT3CaptchaManager",
+      "GT3Error",
+      "GT3RegisterParameter",
+      "GT3ValidationParam",
+      "GTCaptcha4Session"
+    ]
+  },
+  {
+    "category": [
+      "分享类"
+    ],
+    "file": [
+      "MobLinkPro.framework"
+    ],
+    "name": "mobLink",
+    "class": [
+      "MLSDKScene",
+      "MobLink"
+    ]
+  },
+  {
+    "category": [
+      "用户画像类"
+    ],
+    "file": [],
+    "name": "个像 用户画像",
+    "class": [
+      "GInsightSDK"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "JADYun.bundle",
+      "JADYun"
+    ],
+    "name": "京准通广告",
+    "class": [
+      "JADAdBase",
+      "JADBanner",
+      "JADBannerView",
+      "JADFeed",
+      "JADFeedView",
+      "JADInterstitial",
+      "JADInterstitialAd",
+      "JADLocation",
+      "JADLog",
+      "JADNativeAd",
+      "JADNativeAdData",
+      "JADNativeAdSlot",
+      "JADNativeAdWidget",
+      "JADNativeSize",
+      "JADPollux",
+      "JADSplash",
+      "JADSplashView",
+      "JADYunSDK"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "MMKV",
+    "class": [
+      "MMKV",
+      "MMKVHandler"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "OXSaiSDK.bundle"
+    ],
+    "name": "秒验",
+    "class": []
+  },
+  {
+    "category": [
+      "分享类"
+    ],
+    "file": [],
+    "name": "支付宝APP分享",
+    "class": [
+      "APBaseReq",
+      "APBaseResp",
+      "APMediaMessage",
+      "APOpenAPI",
+      "APOpenAPIX",
+      "APSendMessageToAPReq",
+      "APSendMessageToAPResp",
+      "APShareARObject",
+      "APShareFuCardObject",
+      "APShareFundObject",
+      "APShareGIFObject",
+      "APShareImageObject",
+      "APSharePinGoodsObject",
+      "APShareStockObject",
+      "APShareStoreObject",
+      "APShareTBGoodsObject",
+      "APShareTextObject",
+      "APShareWebObject"
+    ]
+  },
+  {
+    "category": [
+      "推送类"
+    ],
+    "file": [
+      "GTSDK.framework"
+    ],
+    "name": "个推 消息推送",
+    "class": [
+      "GeTuiSdk"
+    ]
+  },
+  {
+    "category": [
+      "分享类"
+    ],
+    "file": [],
+    "name": "陌陌分享",
+    "class": [
+      "MDBaseRequest",
+      "MDBaseResponse",
+      "MDImageObject",
+      "MDMediaMessage",
+      "MDMessageRequest",
+      "MDWebpageObject",
+      "MomoChatSDK"
+    ]
+  },
+  {
+    "category": [
+      "身份认证类"
+    ],
+    "file": [
+      "SMS_SDK.framework"
+    ],
+    "name": "mobSms",
+    "class": [
+      "SMSSDK",
+      "SMSSDKAddressBook",
+      "SMSSDKAuthToken",
+      "SMSSDKUserInfo"
+    ]
+  },
+  {
+    "category": [
+      "生活服务类,地图导航类"
+    ],
+    "file": [
+      "MAMapKit.framework"
+    ],
+    "name": "高德地图",
+    "class": [
+      "MAAnimatedAnnotation",
+      "MAAnnotationMoveAnimation",
+      "MAAnnotationView",
+      "MAArc",
+      "MAArcRenderer",
+      "MABaseOverlay",
+      "MACircle",
+      "MACircleRenderer",
+      "MACustomBuildingOverlay",
+      "MACustomBuildingOverlayOption",
+      "MACustomBuildingOverlayRenderer",
+      "MACustomCalloutView",
+      "MACustomSchemeModel",
+      "MAGeodesicPolyline",
+      "MAGroundOverlay",
+      "MAGroundOverlayRenderer",
+      "MAHeatMapGradient",
+      "MAHeatMapNode",
+      "MAHeatMapTileOverlay",
+      "MAHeatMapVectorItem",
+      "MAHeatMapVectorNode",
+      "MAHeatMapVectorOverlay",
+      "MAHeatMapVectorOverlayOptions",
+      "MAHeatMapVectorOverlayRender",
+      "MAIndoorFloorInfo",
+      "MAIndoorInfo",
+      "MAMap",
+      "MAMapCustomStyleOptions",
+      "MAMapStatus",
+      "MAMapView",
+      "MAMultiColoredPolylineRenderer",
+      "MAMultiPoint",
+      "MAMultiPointItem",
+      "MAMultiPointOverlay",
+      "MAMultiPointOverlayRenderer",
+      "MAMultiPolyline",
+      "MAMultiTexturePolylineRenderer",
+      "MAOfflineCity",
+      "MAOfflineItem",
+      "MAOfflineItemCommonCity",
+      "MAOfflineItemMunicipality",
+      "MAOfflineItemNationWide",
+      "MAOfflineMap",
+      "MAOfflineMapViewController",
+      "MAOfflineProvince",
+      "MAOverlayPathRenderer",
+      "MAOverlayRenderer",
+      "MAParticleConstantRotationGenerate",
+      "MAParticleCurveSizeGenerate",
+      "MAParticleEmissionModuleOC",
+      "MAParticleOverLifeModuleOC",
+      "MAParticleOverlay",
+      "MAParticleOverlayOptions",
+      "MAParticleOverlayOptionsFactory",
+      "MAParticleOverlayRenderer",
+      "MAParticleRandomColorGenerate",
+      "MAParticleRandomVelocityGenerate",
+      "MAParticleRectShapeModule",
+      "MAParticleSinglePointShapeModule",
+      "MAPinAnnotationView",
+      "MAPointAnnotation",
+      "MAPolygon",
+      "MAPolygonRenderer",
+      "MAPolyline",
+      "MAPolylineRenderer",
+      "MAShape",
+      "MATerrainOverlay",
+      "MATerrainOverlayRenderer",
+      "MATileOverlay",
+      "MATileOverlayRenderer",
+      "MATouchPoi",
+      "MATraceLocation",
+      "MATraceManager",
+      "MATracePoint",
+      "MAUserLocation",
+      "MAUserLocationRepresentation"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "cmbkeyboard"
+    ],
+    "name": "招行一网通",
+    "class": [
+      "CMBWebKeyboard"
+    ]
+  },
+  {
+    "category": [
+      "支付类"
+    ],
+    "file": [
+      "AlipaySDK.framework",
+      "AlipaySDK.bundle"
+    ],
+    "name": "支付宝App支付",
+    "class": [
+      "AFServiceCenter",
+      "AFServiceResponse",
+      "APayAuthInfo",
+      "AlipaySDK"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "网易云信 直播推流",
+    "class": [
+      "LSCustomDataObject",
+      "LSMediaCapture"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "百度语音合成",
+    "class": [
+      "BDSBuiltInPlayer",
+      "BDSEventManager",
+      "BDSSpeechSynthesizer",
+      "BDSTTSEventManager"
+    ]
+  },
+  {
+    "category": [
+      "身份认证类"
+    ],
+    "file": [],
+    "name": "极光认证",
+    "class": [
+      "JVAuthConfig",
+      "JVERIFICATIONService",
+      "JVLayoutConstraint",
+      "JVMobileUIConfig",
+      "JVTelecomUIConfig",
+      "JVUIConfig",
+      "JVUnicomUIConfig"
+    ]
+  },
+  {
+    "category": [
+      "身份认证类"
+    ],
+    "file": [
+      "OneLoginSDK.framework",
+      "OneLoginResource.bundle"
+    ],
+    "name": "geetest 本机验证",
+    "class": [
+      "OLAgreementView",
+      "OLAuthViewModel",
+      "OLButton",
+      "OLKeyWindowUtil",
+      "OLNavigationView",
+      "OLNetworkInfo",
+      "OLPrivacyTermItem",
+      "OLSizeUtil",
+      "OneLogin",
+      "OneLoginPro"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "孕橙智能试纸识别",
+    "class": [
+      "YCSEnvironment",
+      "SCPaperAnalysiserResult"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "GCDWebservice",
+    "class": [
+      "GCDWebServer"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类,音视频类,人脸识别类,辅助开发类"
+    ],
+    "file": [
+      "iflyMSC.framework"
+    ],
+    "name": "讯飞开放平台(iflymsc)",
+    "class": [
+      "IFlyAudioSession",
+      "IFlyContact",
+      "IFlyDataUploader",
+      "IFlyDebugLog",
+      "IFlyISVRecognizer",
+      "IFlyIdentityResult",
+      "IFlyIdentityVerifier",
+      "IFlyPcmRecorder",
+      "IFlyRecognizerView",
+      "IFlyResourceUtil",
+      "IFlySetting",
+      "IFlySpeechConstant",
+      "IFlySpeechError",
+      "IFlySpeechEvaluator",
+      "IFlySpeechRecognizer",
+      "IFlySpeechSynthesizer",
+      "IFlySpeechUnderstander",
+      "IFlySpeechUtility",
+      "IFlyTextUnderstander",
+      "IFlyUserWords",
+      "IFlyVerifierUtil",
+      "IFlyVoiceWakeuper"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "AdhocSDK"
+    ],
+    "name": "热云数据",
+    "class": [
+      "AdhocSDK",
+      "AdhocSDKConfig"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "网易云信 点播播放器",
+    "class": [
+      "NELivePlayerController",
+      "NELivePlayerRealTimeInfo"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "DouyinOpenSDK",
+      "DouyinOpenSDK.bundle"
+    ],
+    "name": "抖音开放平台",
+    "class": [
+      "DouyinOpenSDKApplicationDelegate"
+    ]
+  },
+  {
+    "category": [
+      "广告类"
+    ],
+    "file": [
+      "JUnion.framework",
+      "JUnionSDKResource.bundle"
+    ],
+    "name": "极光联盟",
+    "class": [
+      "JUFeedListViewController",
+      "JUFeedVideoData",
+      "JULittleVideoListController",
+      "JULittleVideoViewController",
+      "JURootViewController",
+      "JUService",
+      "JUUIConfig",
+      "JUVideoProvider"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "IDaaSDoraemonSDK"
+    ],
+    "name": "阿里云安全认证",
+    "class": [
+      "IDaaSDoraemonManager"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "talkingdata 游戏运营分析",
+    "class": [
+      "TalkingDataGA"
+    ]
+  },
+  {
+    "category": [
+      "即时通讯类"
+    ],
+    "file": [
+      "JMessage.framework"
+    ],
+    "name": "极光IM",
+    "class": [
+      "JMSGAbstractContent",
+      "JMSGApplyJoinGroupEvent",
+      "JMSGChatRoom",
+      "JMSGChatRoomAdminChangeEvent",
+      "JMSGChatRoomBlacklisChangetEvent",
+      "JMSGChatRoomEvent",
+      "JMSGChatRoomSilenceEvent",
+      "JMSGConversation",
+      "JMSGCustomContent",
+      "JMSGCustomNotification",
+      "JMSGDeviceInfo",
+      "JMSGEventContent",
+      "JMSGFileContent",
+      "JMSGFriendManager",
+      "JMSGFriendNotificationEvent",
+      "JMSGGroup",
+      "JMSGGroupAdminApprovalEvent",
+      "JMSGGroupAdminRejectApplicationEvent",
+      "JMSGGroupAnnouncement",
+      "JMSGGroupAnnouncementEvent",
+      "JMSGGroupBlacklistChangeEvent",
+      "JMSGGroupInfo",
+      "JMSGGroupMemberInfo",
+      "JMSGGroupNicknameChangeEvent",
+      "JMSGImageContent",
+      "JMSGLocationContent",
+      "JMSGMediaAbstractContent",
+      "JMSGMemberSilenceInfo",
+      "JMSGMessage",
+      "JMSGMessageReceiptStatusChangeEvent",
+      "JMSGMessageRetractEvent",
+      "JMSGMessageTransparentEvent",
+      "JMSGNotificationEvent",
+      "JMSGOptionalContent",
+      "JMSGPromptContent",
+      "JMSGTextContent",
+      "JMSGUser",
+      "JMSGUserInfo",
+      "JMSGUserLoginStatusChangeEvent",
+      "JMSGVideoContent",
+      "JMSGVoiceContent",
+      "JMessage"
+    ]
+  },
+  {
+    "category": [
+      "分享类,第三方登陆类"
+    ],
+    "file": [
+      "DTShareKit.framework"
+    ],
+    "name": "钉钉分享登录",
+    "class": [
+      "DTAuthorizeReq",
+      "DTAuthorizeResp",
+      "DTBaseReq",
+      "DTBaseResp",
+      "DTMediaAlipayObject",
+      "DTMediaImageObject",
+      "DTMediaMessage",
+      "DTMediaTextObject",
+      "DTMediaWebObject",
+      "DTOpenAPI",
+      "DTSendMessageToDingTalkReq",
+      "DTSendMessageToDingTalkResp"
+    ]
+  },
+  {
+    "category": [
+      "广告类"
+    ],
+    "file": [
+      "GetuiBXSdk.framework"
+    ],
+    "name": "个推 变现",
+    "class": [
+      "GetuiBXAd",
+      "GetuiBXAdObject",
+      "GetuiBXAdTouch",
+      "GetuiBXBanner",
+      "GetuiBXButton",
+      "GetuiBXDrawAd",
+      "GetuiBXFloat",
+      "GetuiBXInterstitialAd",
+      "GetuiBXNativeAd",
+      "GetuiBXNativeAdParams",
+      "GetuiBXNativeAdView",
+      "GetuiBXParamObject",
+      "GetuiBXRewardVideoAd",
+      "GetuiBXSdk",
+      "GetuiBXSdkKey",
+      "GetuiBXSplashAd"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "bonreeAgent"
+    ],
+    "name": "博睿数据",
+    "class": [
+      "BRSAgent"
+    ]
+  },
+  {
+    "category": [
+      "安全风控类,人脸识别类,身份认证类"
+    ],
+    "file": [
+      "YTFaceDetectorLiveness.framework",
+      "YTFaceLiveReflect.framework",
+      "YTFaceTrackerLiveness.framework",
+      "YTPoseDetector.framework",
+      "YTCommonLiveness.framework",
+      "YTFaceAlignmentTinyLiveness.framework"
+    ],
+    "name": "腾讯云人脸识别",
+    "class": [
+      "YTBrightnessManager",
+      "YTFaceHandle",
+      "YTLivenessAuthManager"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "tingyunApp",
+      "tingyunApp.bundle"
+    ],
+    "name": "听云",
+    "class": [
+      "NBSAppAgent"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类,地图导航类"
+    ],
+    "file": [
+      "TencentLBS.framework"
+    ],
+    "name": "腾讯iOS定位",
+    "class": [
+      "TencentLBSLocation",
+      "TencentLBSLocationManager",
+      "TencentLBSLocationUtils",
+      "TencentLBSPoi",
+      "TencentLBSServiceManager"
+    ]
+  },
+  {
+    "category": [
+      "安全风控类"
+    ],
+    "file": [
+      "DXWhiteBoxFramework.framework"
+    ],
+    "name": "顶象白盒加密",
+    "class": [
+      "DXWhiteBoxManager"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "喜马拉雅",
+    "class": [
+      "XMReqMgr"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类,音视频类"
+    ],
+    "file": [
+      "TXLiteAVSDK_Player.framework"
+    ],
+    "name": "腾讯云视立方播放器",
+    "class": [
+      "TXPlayerAuthParams",
+      "TXRecordResult",
+      "TXVodDownloadDataSource",
+      "TXVodDownloadManager",
+      "TXVodDownloadMediaInfo",
+      "TXVodPlayConfig",
+      "TXVodPlayer"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "数字联盟可信id",
+    "class": [
+      "EdkxBSqSeZInGK_meta"
+    ]
+  },
+  {
+    "category": [
+      "Crash监控类"
+    ],
+    "file": [],
+    "name": "sentry错误统计",
+    "class": [
+      "SentryAppStartMeasurement",
+      "SentryAppStartTracker",
+      "SentryAppStartTrackingIntegration",
+      "SentryAppState",
+      "SentryAppStateManager",
+      "SentryAsynchronousOperation",
+      "SentryAttachment",
+      "SentryAutoBreadcrumbTrackingIntegration",
+      "SentryAutoSessionTrackingIntegration",
+      "SentryBreadcrumb",
+      "SentryBreadcrumbTracker",
+      "SentryClient",
+      "SentryConcurrentRateLimitsDictionary",
+      "SentryCrash",
+      "SentryCrashAdapter",
+      "SentryCrashBinaryImageUtil",
+      "SentryCrashCString",
+      "SentryCrashDefaultBinaryImageProvider",
+      "SentryCrashDefaultMachineContextWrapper",
+      "SentryCrashDoctor",
+      "SentryCrashExceptionApplication",
+      "SentryCrashInstallation",
+      "SentryCrashInstallationReporter",
+      "SentryCrashIntegration",
+      "SentryCrashJSONCodec",
+      "SentryCrashReportConverter",
+      "SentryCrashReportFilterCombine",
+      "SentryCrashReportFilterConcatenate",
+      "SentryCrashReportFilterDataToString",
+      "SentryCrashReportFilterObjectForKey",
+      "SentryCrashReportFilterPassthrough",
+      "SentryCrashReportFilterPipeline",
+      "SentryCrashReportFilterStringToData",
+      "SentryCrashReportFilterSubset",
+      "SentryCrashReportSink",
+      "SentryCrashScopeObserver",
+      "SentryCrashStackEntryMapper",
+      "SentryCurrentDate",
+      "SentryDateUtil",
+      "SentryDebugImageProvider",
+      "SentryDebugMeta",
+      "SentryDefaultCurrentDateProvider",
+      "SentryDefaultObjCRuntimeWrapper",
+      "SentryDefaultRateLimits",
+      "SentryDispatchQueueWrapper",
+      "SentryDisplayLinkWrapper",
+      "SentryDsn",
+      "SentryEnvelope",
+      "SentryEnvelopeHeader",
+      "SentryEnvelopeItem",
+      "SentryEnvelopeItemHeader",
+      "SentryEnvelopeRateLimit",
+      "SentryEvent",
+      "SentryException",
+      "SentryFileContents",
+      "SentryFileManager",
+      "SentryFrame",
+      "SentryFrameRemover",
+      "SentryFramesTracker",
+      "SentryFramesTrackingIntegration",
+      "SentryGlobalEventProcessor",
+      "SentryHttpDateParser",
+      "SentryHttpTransport",
+      "SentryHub",
+      "SentryId",
+      "SentryInAppLogic",
+      "SentryInstallation",
+      "SentryLevelMapper",
+      "SentryLog",
+      "SentryLogOutput",
+      "SentryMechanism",
+      "SentryMechanismMeta",
+      "SentryMessage",
+      "SentryMeta",
+      "SentryMigrateSessionInit",
+      "SentryNSError",
+      "SentryNSURLRequest",
+      "SentryNSURLSessionTaskSearch",
+      "SentryNetworkTracker",
+      "SentryNetworkTrackingIntegration",
+      "SentryNoOpSpan",
+      "SentryOptions",
+      "SentryOutOfMemoryLogic",
+      "SentryOutOfMemoryTracker",
+      "SentryOutOfMemoryTrackingIntegration",
+      "SentryPerformanceTracker",
+      "SentryPerformanceTrackingIntegration",
+      "SentryQueueableRequestManager",
+      "SentryRandom",
+      "SentryRateLimitCategoryMapper",
+      "SentryRateLimitParser",
+      "SentryRequestOperation",
+      "SentryRetryAfterHeaderParser",
+      "SentrySDK",
+      "SentrySamplingContext",
+      "SentryScope",
+      "SentryScreenFrames",
+      "SentrySdkInfo",
+      "SentrySerialization",
+      "SentrySession",
+      "SentrySessionCrashedHandler",
+      "SentrySessionTracker",
+      "SentrySpan",
+      "SentrySpanContext",
+      "SentrySpanId",
+      "SentryStacktrace",
+      "SentryStacktraceBuilder",
+      "SentrySubClassFinder",
+      "SentrySwizzle",
+      "SentrySwizzleInfo",
+      "SentrySysctl",
+      "SentrySystemEventsBreadcrumbs",
+      "SentryThread",
+      "SentryThreadInspector",
+      "SentryTraceHeader",
+      "SentryTraceState",
+      "SentryTraceStateUser",
+      "SentryTracer",
+      "SentryTracesSampler",
+      "SentryTransaction",
+      "SentryTransactionContext",
+      "SentryTransportFactory",
+      "SentryUIViewControllerPerformanceTracker",
+      "SentryUIViewControllerSanitizer",
+      "SentryUIViewControllerSwizziling",
+      "SentryUser",
+      "SentryUserFeedback"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "iCarousel",
+    "class": [
+      "iCarousel",
+      "iCarouselDataSource",
+      "iCarouselDelegate"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "MMPlayer"
+    ],
+    "name": "陌陌播放器",
+    "class": [
+      "MMMeidaLogger",
+      "MMP_RecordReachability",
+      "MMPlatformUtils",
+      "MMPlayer",
+      "MMPlayerAnalytics",
+      "MMPlayerConfigFetcher",
+      "MMPlayerConfiguratinonModel",
+      "MMPlayerFetcher",
+      "MMPlayerIPInfoFetcher",
+      "MMPlayerManager",
+      "MMPlayerPlayParams",
+      "MMPlayerPreloader",
+      "MMPlayerProxy",
+      "MMPlayerProxyParams",
+      "MMPlayerScaleAspectFill",
+      "MMPlayerScaleAspectFit",
+      "MMPlayerScaleCenter",
+      "MMPlayerView",
+      "MMRemoteResouce",
+      "MMSimpleHttpFetcher",
+      "MMplayerScaleStretch"
+    ]
+  },
+  {
+    "category": [
+      "安全风控类,人脸识别类,身份认证类"
+    ],
+    "file": [
+      "ATAuthSDK.framework"
+    ],
+    "name": "阿里云号码认证",
+    "class": [
+      "TXCommonHandler",
+      "TXCommonUtils"
+    ]
+  },
+  {
+    "category": [
+      "推送类"
+    ],
+    "file": [
+      "MobPush.framework"
+    ],
+    "name": "mobpush",
+    "class": [
+      "MPushCustomMessage",
+      "MPushMessage",
+      "MPushNotification",
+      "MPushNotificationConfiguration",
+      "MPushNotificationRequest",
+      "MPushNotificationTrigger",
+      "MobPush"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "SobotKit.bundle",
+      "SobotKit"
+    ],
+    "name": "智齿客服",
+    "class": [
+      "ZCChatController",
+      "ZCChatView",
+      "ZCHtmlCore",
+      "ZCKitInfo",
+      "ZCLibClient",
+      "ZCLibConfig",
+      "ZCLibContent",
+      "ZCLibCusMenu",
+      "ZCLibInitInfo",
+      "ZCLibMessage",
+      "ZCLibRich",
+      "ZCLibServer",
+      "ZCLocalStore",
+      "ZCMultiwheelModel",
+      "ZCOrderGoodsModel",
+      "ZCPlatformInfo",
+      "ZCPlatformTools",
+      "ZCProductInfo",
+      "ZCRecordListModel",
+      "ZCServiceCentreVC",
+      "ZCSobot",
+      "ZCSobotApi",
+      "ZCTitleView",
+      "ZCUIBaseController",
+      "ZCUIChatListController",
+      "ZCUICore",
+      "ZCUILeaveMessageController",
+      "ZCUIWebController"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类,地图导航类"
+    ],
+    "file": [
+      "AMapLocationKit.framework"
+    ],
+    "name": "高德定位",
+    "class": [
+      "AMapGeoFenceCircleRegion",
+      "AMapGeoFenceDistrictRegion",
+      "AMapGeoFenceManager",
+      "AMapGeoFencePOIRegion",
+      "AMapGeoFencePolygonRegion",
+      "AMapGeoFenceRegion",
+      "AMapLocationCircleRegion",
+      "AMapLocationDistrictItem",
+      "AMapLocationManager",
+      "AMapLocationPOIItem",
+      "AMapLocationPoint",
+      "AMapLocationPolygonRegion",
+      "AMapLocationReGeocode",
+      "AMapLocationRegion"
+    ]
+  },
+  {
+    "category": [
+      "生活服务类,地图导航类"
+    ],
+    "file": [
+      "QMapKit.framework"
+    ],
+    "name": "腾讯iOS地图",
+    "class": [
+      "QAOILayer",
+      "QAnimation",
+      "QAnnotationView",
+      "QAnnotationViewLayer",
+      "QArc",
+      "QArcData",
+      "QArcOverlay",
+      "QArcOverlayAnimation",
+      "QArcOverlayView",
+      "QArcStyle",
+      "QArcView",
+      "QBasicMapViewLayer",
+      "QCircle",
+      "QCircleView",
+      "QCustomLayer",
+      "QDotScatterOverlay",
+      "QDotScatterOverlayView",
+      "QGLOverlay",
+      "QGLOverlayView",
+      "QGroundOverlay",
+      "QGroundOverlayView",
+      "QHeatGradient",
+      "QHeatNode",
+      "QHeatOverlay",
+      "QHeatOverlayView",
+      "QHeatTileGradient",
+      "QHeatTileNode",
+      "QHeatTileOverlay",
+      "QHeatTileOverlayView",
+      "QIconScatterOverlay",
+      "QIconScatterOverlayView",
+      "QIndoorBuilding",
+      "QIndoorInfo",
+      "QIndoorLevel",
+      "QIndoorPoiInfo",
+      "QMSAddressComponent",
+      "QMSBaseResult",
+      "QMSBicyclingRouteSearchOption",
+      "QMSBicyclingRouteSearchResult",
+      "QMSBusStation",
+      "QMSBusingRoutePlan",
+      "QMSBusingRouteSearchOption",
+      "QMSBusingRouteSearchResult",
+      "QMSBusingRouteTransitLine",
+      "QMSBusingSegmentRoutePlan",
+      "QMSDistrictBaseSearchOption",
+      "QMSDistrictBaseSearchResult",
+      "QMSDistrictChildrenSearchOption",
+      "QMSDistrictData",
+      "QMSDistrictListSearchOption",
+      "QMSDistrictSearchResult",
+      "QMSDistrictSearchSearchOption",
+      "QMSDriveRestriction",
+      "QMSDrivingRouteSearchOption",
+      "QMSDrivingRouteSearchResult",
+      "QMSGeoCodeAdInfo",
+      "QMSGeoCodeSearchOption",
+      "QMSGeoCodeSearchResult",
+      "QMSPoiAdInfo",
+      "QMSPoiData",
+      "QMSPoiSearchOption",
+      "QMSPoiSearchResult",
+      "QMSPoiSubData",
+      "QMSReGeoCodeAdInfo",
+      "QMSReGeoCodeAddressReference",
+      "QMSReGeoCodeFamousArea",
+      "QMSReGeoCodeFormattedAddresses",
+      "QMSReGeoCodePoi",
+      "QMSReverseGeoCodeSearchOption",
+      "QMSReverseGeoCodeSearchResult",
+      "QMSRoutePlan",
+      "QMSRouteStep",
+      "QMSSearchOption",
+      "QMSSearchResult",
+      "QMSSearchServices",
+      "QMSSearcher",
+      "QMSStationEntrance",
+      "QMSSuggestionPoiData",
+      "QMSSuggestionResult",
+      "QMSSuggestionSearchOption",
+      "QMSSuggestionSubPoiData",
+      "QMSTaxiFare",
+      "QMSTrackPoint",
+      "QMSTrafficCondition",
+      "QMSUniveralPolygon",
+      "QMSWalkingRouteSearchOption",
+      "QMSWalkingRouteSearchResult",
+      "QMapConfig",
+      "QMapServices",
+      "QMapView",
+      "QMultiPoint",
+      "QOfflineItem",
+      "QOfflineMap",
+      "QOfflineNation",
+      "QOfflineProvince",
+      "QOverlayPathView",
+      "QOverlayView",
+      "QOverseaProvider",
+      "QPinAnnotationView",
+      "QPoiInfo",
+      "QPointAnnotation",
+      "QPointEventInfo",
+      "QPolygon",
+      "QPolygonView",
+      "QPolyline",
+      "QPolylineView",
+      "QScatterNode",
+      "QSegmentColor",
+      "QSegmentStyle",
+      "QSegmentText",
+      "QShape",
+      "QStyledPolylineView",
+      "QSubPoiInfo",
+      "QText",
+      "QTextStyle",
+      "QTexturePolylineView",
+      "QTileOverlay",
+      "QTileOverlayView",
+      "QTrafficStyle",
+      "QTrailLine",
+      "QTrailLineStyle",
+      "QTrailNode",
+      "QTrailOverlay",
+      "QTrailOverlayView",
+      "QUserLocation",
+      "QUserLocationPresentation",
+      "QVectorHeatAggregationUnit",
+      "QVectorHeatOverlay",
+      "QVectorHeatOverlayOption",
+      "QVectorHeatOverlayView",
+      "QVisualLayer"
+    ]
+  },
+  {
+    "category": [
+      "身份认证类"
+    ],
+    "file": [
+      "UMSMS.framework",
+      "UMVerify.framework"
+    ],
+    "name": "友盟智能认证",
+    "class": [
+      "UMSMS",
+      "UMCommonHandler",
+      "UMCommonUtils",
+      "UMCustomModel"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "即构直播",
+    "class": [
+      "ZegoExpressEngine",
+      "ZegoEngineProfile"
+    ]
+  },
+  {
+    "category": [
+      "身份认证类"
+    ],
+    "file": [
+      "SecVerify.bundle"
+    ],
+    "name": "mobtech 秒验",
+    "class": [
+      "SVSDKHyPrivacyText",
+      "SVSDKHyProtocolUserInfo",
+      "SVSDKHyUIConfigure",
+      "SVSDKHyVerify"
+    ]
+  },
+  {
+    "category": [
+      "安全风控类"
+    ],
+    "file": [
+      "AliTigerTally_IDFA.framework",
+      "AliTigerTally_NOIDFA.framework"
+    ],
+    "name": "阿里云爬虫防护",
+    "class": [
+      "AliTigerTally"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "百度文字识别",
+    "class": [
+      "AipCameraController",
+      "AipCameraPreviewView",
+      "AipCaptureCardVC",
+      "AipCutImageView",
+      "AipDisplayLink",
+      "AipGeneralVC",
+      "AipImageView",
+      "AipNavigationController",
+      "AipOcrService"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "SocketRocket",
+    "class": [
+      "SRWebSocket",
+      "SRWebSocketDelegate"
+    ]
+  },
+  {
+    "category": [
+      "第三方登录类,分享类"
+    ],
+    "file": [
+      "TencentOpenAPI.framework",
+      "TencentOpenApi_IOS_Bundle.bundle"
+    ],
+    "name": "QQ互联",
+    "class": [
+      "QQApiAdItem",
+      "QQApiAudioObject",
+      "QQApiAuthObject",
+      "QQApiCommonContentObject",
+      "QQApiExtendObject",
+      "QQApiExtraServiceObject",
+      "QQApiFileObject",
+      "QQApiImageArrayForFaceCollectionObject",
+      "QQApiImageArrayForQZoneObject",
+      "QQApiImageForQQAvatarObject",
+      "QQApiImageObject",
+      "QQApiInterface",
+      "QQApiLaunchMiniProgramObject",
+      "QQApiMiniProgramLaunchObject",
+      "QQApiMiniProgramObject",
+      "QQApiNewsObject",
+      "QQApiObject",
+      "QQApiResultObject",
+      "QQApiTextObject",
+      "QQApiThirdAppBindGroupObject",
+      "QQApiThirdAppJoinGroupObject",
+      "QQApiThirdAppUnBindGroupObject",
+      "QQApiURLObject",
+      "QQApiVideoForQQAvatarObject",
+      "QQApiVideoForQZoneObject",
+      "QQApiVideoObject",
+      "QQApiWebImageObject",
+      "QQBaseReq",
+      "QQBaseResp",
+      "SendMessageToQQReq",
+      "SendMessageToQQResp",
+      "ShowMessageFromQQReq",
+      "TCAPIRequest",
+      "TencentOAuth"
+    ]
+  },
+  {
+    "category": [
+      "安全风控类,人脸识别类,身份认证类"
+    ],
+    "file": [
+      "RPSDK.framework"
+    ],
+    "name": "阿里云实人认证",
+    "class": [
+      "RPSDK"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "AgoraVideoSegmentationExtension",
+      "AgoraVideoSegmentationExtension.bundle",
+      "AgoraSuperResolutionExtension",
+      "AgoraSuperResolutionExtension.bundle"
+    ],
+    "name": "agora voice",
+    "class": [
+      "AgoraRtcEngineKit"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "MJRefresh.bundle"
+    ],
+    "name": "MJRefresh",
+    "class": [
+      "MJRefreshConfig",
+      "MJRefreshAutoFooter",
+      "MJRefreshBackFooter",
+      "MJRefreshComponent",
+      "MJRefreshFooter",
+      "MJRefreshHeader",
+      "MJRefreshTrailer",
+      "MJRefreshAutoGifFooter",
+      "MJRefreshAutoNormalFooter",
+      "MJRefreshAutoStateFooter",
+      "MJRefreshBackGifFooter",
+      "MJRefreshBackNormalFooter",
+      "MJRefreshBackStateFooter",
+      "MJRefreshGifHeader",
+      "MJRefreshNormalHeader",
+      "MJRefreshStateHeader",
+      "MJRefreshNormalTrailer",
+      "MJRefreshStateTrailer"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类,统计类,Crash监控类,辅助开发类"
+    ],
+    "file": [
+      "FirebaseABTesting.framework",
+      "FirebaseAnalytics.framework",
+      "FirebaseAppCheck.framework",
+      "FirebaseAppDistribution.framework",
+      "FirebaseAuth.framework",
+      "FirebaseCoreDiagnostics.framework",
+      "FirebaseCore.framework",
+      "FirebaseCrashlytics.framework",
+      "FirebaseDatabase.framework",
+      "FirebaseDynamicLinks.framework",
+      "FirebaseFirestore.framework",
+      "FirebaseFunctions.framework",
+      "FirebaseInAppMessaging.framework",
+      "FirebaseInstallations.framework",
+      "FirebaseMessaging.framework",
+      "FirebaseMLModelDownloader.framework",
+      "FirebasePerformance.framework",
+      "FirebaseRemoteConfig.framework",
+      "FirebaseStorage.framework"
+    ],
+    "name": "firebase ios",
+    "class": [
+      "FIRActionCodeSettings",
+      "FIRActionCodeURL",
+      "FIRAdditionalUserInfo",
+      "FIRAnalytics",
+      "FIRApp",
+      "FIRAppAttestProvider",
+      "FIRAppCheck",
+      "FIRAppCheckDebugProvider",
+      "FIRAppCheckDebugProviderFactory",
+      "FIRAppCheckToken",
+      "FIRAppDistribution",
+      "FIRAppDistributionRelease",
+      "FIRAuth",
+      "FIRAuthCredential",
+      "FIRAuthDataResult",
+      "FIRAuthErrors",
+      "FIRAuthSettings",
+      "FIRAuthTokenResult",
+      "FIRCollectionReference",
+      "FIRConfiguration",
+      "FIRCrashlytics",
+      "FIRCrashlyticsReport",
+      "FIRDataSnapshot",
+      "FIRDatabase",
+      "FIRDatabaseQuery",
+      "FIRDatabaseReference",
+      "FIRDeviceCheckProvider",
+      "FIRDeviceCheckProviderFactory",
+      "FIRDocumentChange",
+      "FIRDocumentReference",
+      "FIRDocumentSnapshot",
+      "FIRDynamicLink",
+      "FIRDynamicLinkAndroidParameters",
+      "FIRDynamicLinkComponents",
+      "FIRDynamicLinkComponentsOptions",
+      "FIRDynamicLinkGoogleAnalyticsParameters",
+      "FIRDynamicLinkIOSParameters",
+      "FIRDynamicLinkItunesConnectAnalyticsParameters",
+      "FIRDynamicLinkNavigationInfoParameters",
+      "FIRDynamicLinkOtherPlatformParameters",
+      "FIRDynamicLinkSocialMetaTagParameters",
+      "FIRDynamicLinks",
+      "FIREmailAuthProvider",
+      "FIRExceptionModel",
+      "FIRExperimentController",
+      "FIRFacebookAuthProvider",
+      "FIRFieldPath",
+      "FIRFieldValue",
+      "FIRFirestore",
+      "FIRFirestoreSettings",
+      "FIRFunctions",
+      "FIRGameCenterAuthProvider",
+      "FIRGeoPoint",
+      "FIRGitHubAuthProvider",
+      "FIRGoogleAuthProvider",
+      "FIRHTTPMetric",
+      "FIRHTTPSCallable",
+      "FIRHTTPSCallableResult",
+      "FIRInAppMessaging",
+      "FIRInAppMessagingAction",
+      "FIRInAppMessagingActionButton",
+      "FIRInAppMessagingBannerDisplay",
+      "FIRInAppMessagingCampaignInfo",
+      "FIRInAppMessagingCardDisplay",
+      "FIRInAppMessagingDisplayMessage",
+      "FIRInAppMessagingImageData",
+      "FIRInAppMessagingImageOnlyDisplay",
+      "FIRInAppMessagingModalDisplay",
+      "FIRInstallations",
+      "FIRInstallationsAuthTokenResult",
+      "FIRLifecycleEvents",
+      "FIRLoadBundleTask",
+      "FIRLoadBundleTaskProgress",
+      "FIRMessaging",
+      "FIRMessagingExtensionHelper",
+      "FIRMessagingMessageInfo",
+      "FIRMultiFactor",
+      "FIRMultiFactorAssertion",
+      "FIRMultiFactorInfo",
+      "FIRMultiFactorResolver",
+      "FIRMultiFactorSession",
+      "FIRMutableData",
+      "FIROAuthCredential",
+      "FIROAuthProvider",
+      "FIROptions",
+      "FIRPerformance",
+      "FIRPhoneAuthCredential",
+      "FIRPhoneAuthProvider",
+      "FIRPhoneMultiFactorAssertion",
+      "FIRPhoneMultiFactorGenerator",
+      "FIRPhoneMultiFactorInfo",
+      "FIRQuery",
+      "FIRQueryDocumentSnapshot",
+      "FIRQuerySnapshot",
+      "FIRRemoteConfig",
+      "FIRRemoteConfigSettings",
+      "FIRRemoteConfigValue",
+      "FIRServerValue",
+      "FIRSnapshotMetadata",
+      "FIRStackFrame",
+      "FIRStorage",
+      "FIRStorageDownloadTask",
+      "FIRStorageListResult",
+      "FIRStorageMetadata",
+      "FIRStorageObservableTask",
+      "FIRStorageReference",
+      "FIRStorageTask",
+      "FIRStorageTaskSnapshot",
+      "FIRStorageUploadTask",
+      "FIRTimestamp",
+      "FIRTrace",
+      "FIRTransaction",
+      "FIRTransactionResult",
+      "FIRTwitterAuthProvider",
+      "FIRUser",
+      "FIRUserMetadata",
+      "FIRUserProfileChangeRequest",
+      "FIRWriteBatch"
+    ]
+  },
+  {
+    "category": [
+      "音视频类"
+    ],
+    "file": [],
+    "name": "美摄",
+    "class": [
+      "NvsClipAnimatedSticker",
+      "NvsFaceData3D",
+      "NvsPaintingEffectContext",
+      "NvsTimelineAnimatedSticker",
+      "NvsClipCaption",
+      "NvsFaceEffect2Init",
+      "NvsParticleSystemContext",
+      "NvsTimelineCaption",
+      "NvsAnimatedSticker",
+      "NvsClipCompoundCaption",
+      "NvsFaceEffectV1",
+      "NvsPlaybackRateControlRegion",
+      "NvsTimelineCompoundCaption",
+      "NvsArbitraryData",
+      "NvsColor",
+      "NvsFaceFeature",
+      "NvsPointD",
+      "NvsTimelineVideoFx",
+      "NvsARFaceContext",
+      "NvsCompoundCaption",
+      "NvsFaceFeatureInfo",
+      "NvsPosition2D",
+      "NvsTrack",
+      "NvsARFaceContextDelegate",
+      "NvsControlPointPair",
+      "NvsFaceFeaturePoint",
+      "NvsPosition3D",
+      "NvsTrackAnimatedSticker",
+      "NvsARSceneBeautyPreset",
+      "NvsCustomAudioFxRenderContext",
+      "NvsFaceInfo",
+      "NvsRational",
+      "NvsTrackCaption",
+      "NvsARSceneManipulate",
+      "NvsCustomAudioFxRenderer",
+      "NvsFontInfo",
+      "NvsRect",
+      "NvsTrackCompoundCaption",
+      "NvsARSceneManipulateDelegate",
+      "NvsCustomVideoFxRenderContext",
+      "NvsFx",
+      "NvsSize",
+      "NvsTrackVideoFx",
+      "NvsARSceneShapeBeautificationPreset",
+      "NvsCustomVideoFxRenderer",
+      "NvsFxDescription",
+      "NvsSmartCutCaptionInfo",
+      "NvsVideoClip",
+      "NvsAssetPackageManager",
+      "NvsCustomVideoFxRenderHelper",
+      "NvsHumanDetectionHandle",
+      "NvsSmartCutClipData",
+      "NvsVideoEffect",
+      "NvsAssetPackageManagerDelegate",
+      "NvsCustomVideoFxVideoFrame",
+      "NvsHumanFeature",
+      "NvsSmartCutFilterInfo",
+      "NvsVideoEffectAnimatedSticker",
+      "NvsAssetPackageManagerGenerateTemplateDelegate",
+      "NvsCustomVideoTransitionRenderContext",
+      "NvsIconGenerator",
+      "NvsSmartCutGenerator",
+      "NvsVideoEffectCaption",
+      "NvsAssetPackageParticleDescParser",
+      "NvsCustomVideoTransitionRenderer",
+      "NvsIconGeneratorDelegate",
+      "NvsSmartCutParser",
+      "NvsVideoEffectCompoundCaption",
+      "NvsAudioClip",
+      "NvsCustomVideoTransitionRenderHelper",
+      "NvsImageGrabberDelegate",
+      "NvsSmartCutParserDelegate",
+      "NvsVideoEffectTransition",
+      "NvsAudioFx",
+      "NvsCustomVideoTransitionVideoFrame",
+      "NvsInferenceScheme",
+      "NvsSmartCutResultData",
+      "NvsVideoFrameInfo",
+      "NvsAudioResolution",
+      "NvsDetectData",
+      "NvsIosUtils",
+      "NvsSmartCutSCDData",
+      "NvsVideoFrameReceiver",
+      "NvsAudioSampleBuffers",
+      "NvsDetectionConfig",
+      "NvsLiveWindow",
+      "NvsSmartCutSCDInfo",
+      "NvsVideoFrameReceiverDelegate",
+      "NvsAudioTrack",
+      "NvsDetectionPosition2D",
+      "NvsMakeupEffect",
+      "NvsSmartCutSpeedInfo",
+      "NvsVideoFrameRetriever",
+      "NvsAudioTransition",
+      "NvsDetectionPosition3D",
+      "NvsMakeupEffectInfo",
+      "NvsSmartCutSpeedList",
+      "NvsVideoFx",
+      "NvsAVFileInfo",
+      "NvsEffect",
+      "NvsMakeupEffectLayer",
+      "NvsSmartCutTransitionInfo",
+      "NvsVideoResolution",
+      "NvsBeatDetection",
+      "NvsEffectColor",
+      "NvsMakeupEffectLayer3D",
+      "NvsStreamingContext",
+      "NvsVideoTrack",
+      "NvsBeatDetectionDelegate",
+      "NvsEffectDescription",
+      "NvsMakeupEffectLayerHighlight",
+      "NvsStreamingContextDelegate",
+      "NvsVideoTransition",
+      "NvsCaption",
+      "NvsEffectPosition2D",
+      "NvsMakeupEffectLayerLut",
+      "NvsTemplateCaptionDesc",
+      "NvsWaveformDataGenerator",
+      "NvsCaptureAnimatedSticker",
+      "NvsEffectPosition3D",
+      "NvsMaskEllipse2D",
+      "NvsTemplateCompoundCaptionDesc",
+      "NvsWaveformDataGeneratorDelegate",
+      "NvsCaptureAudioFx",
+      "NvsEffectRational",
+      "NvsMaskRegionInfo",
+      "NvsTemplateCompoundCaptionItemDesc",
+      "NvsWaveformView",
+      "NvsCaptureCaption",
+      "NvsEffectRect",
+      "NvsMaskSubRegionInfo",
+      "NvsTemplateFootageCorrespondingClipInfo",
+      "NvsCaptureCompoundCaption",
+      "NvsEffectRenderCore",
+      "NvsMaskTransform2D",
+      "NvsTemplateFootageDesc",
+      "NvsCapturedAudioSampleInfo",
+      "NvsEffectSdkContext",
+      "NvsMediaFileVideoRetriever",
+      "NvsTemplateFootageInfo",
+      "NvsCaptureDeviceCapability",
+      "NvsEffectVideoFrameInfo",
+      "NvsMediaFileVideoRetrieverDelegate",
+      "NvsThumbnailSequenceDesc",
+      "NvsCaptureVideoFx",
+      "NvsEffectVideoResolution",
+      "NvsMultiThumbnailSequenceView",
+      "NvsThumbnailSequenceView",
+      "NvsClip",
+      "NvsFaceData2D",
+      "NvsObject",
+      "NvsTimeline"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "HyphenateChat",
+      "HyphenateChat.bundle"
+    ],
+    "name": "环信IM",
+    "class": [
+      "IEMChatRoomManager"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "RangersAppLog.bundle"
+    ],
+    "name": "火山增长分析",
+    "class": [
+      "BDAutoTrackConfig"
+    ]
+  },
+  {
+    "category": [
+      "音视频类"
+    ],
+    "file": [
+      "AliyunPlayer.framework",
+      "VODUpload.framework"
+    ],
+    "name": "阿里云视频点播",
+    "class": [
+      "AVPBitStreamSource",
+      "AVPCacheConfig",
+      "AVPConfig",
+      "AVPErrorModel",
+      "AVPLiveKeyGenerator",
+      "AVPLiveStsSource",
+      "AVPLiveTimeShift",
+      "AVPMediaInfo",
+      "AVPSource",
+      "AVPThumbnailInfo",
+      "AVPTimeShiftModel",
+      "AVPTrackInfo",
+      "AVPUrlSource",
+      "AVPVidAuthSource",
+      "AVPVidMpsSource",
+      "AVPVidStsSource",
+      "AliListPlayer",
+      "AliPlayer",
+      "AliPlayerGlobalSettings",
+      "AliPrivateService",
+      "VODUploadClient",
+      "VODUploadListener",
+      "VODUploadModel",
+      "VODUploadSVideoClient",
+      "VodInfo",
+      "VodSVideoInfo",
+      "VodSVideoUploadResult",
+      "AliyunAction",
+      "AliyunActionPartParam",
+      "AliyunAlphaAction",
+      "AliyunAudioEffect",
+      "AliyunAudioFade",
+      "AliyunAudioRecorder",
+      "AliyunBaseFilter",
+      "AliyunBaseFilterController",
+      "AliyunCameraRecordSource",
+      "AliyunCaptionSticker",
+      "AliyunCaptionStickerController",
+      "AliyunClip",
+      "AliyunClipAudioInfo",
+      "AliyunClipAugmentationInfo",
+      "AliyunClipConstructor",
+      "AliyunClipManager",
+      "AliyunCrop",
+      "AliyunCustomAction",
+      "AliyunDraft",
+      "AliyunDraftLoadTask",
+      "AliyunDraftManager",
+      "AliyunDraftProjectUploadTask",
+      "AliyunEditor",
+      "AliyunEditorBaseProject",
+      "AliyunEditorProject",
+      "AliyunEditorRenderWrapper",
+      "AliyunEffect",
+      "AliyunEffectBlurBackground",
+      "AliyunEffectCaption",
+      "AliyunEffectConfig",
+      "AliyunEffectDub",
+      "AliyunEffectFactory",
+      "AliyunEffectFilter",
+      "AliyunEffectImage",
+      "AliyunEffectMV",
+      "AliyunEffectMusic",
+      "AliyunEffectPaster",
+      "AliyunEffectPasterBase",
+      "AliyunEffectPasterFrameItem",
+      "AliyunEffectPasterTimeItem",
+      "AliyunEffectRunningDisplayMode",
+      "AliyunEffectStaticImage",
+      "AliyunEffectSubtitle",
+      "AliyunEffectTimeFilter",
+      "AliyunErrorCode",
+      "AliyunErrorLogger",
+      "AliyunEventManager",
+      "AliyunFacePoint",
+      "AliyunFilterManager",
+      "AliyunGifSticker",
+      "AliyunGifStickerController",
+      "AliyunHttpClient",
+      "AliyunICanvasLineData",
+      "AliyunICanvasView",
+      "AliyunIPaint",
+      "AliyunIRecorder",
+      "AliyunImageCrop",
+      "AliyunImageSticker",
+      "AliyunImageStickerController",
+      "AliyunImporter",
+      "AliyunJSONModel",
+      "AliyunLutFilter",
+      "AliyunLutFilterController",
+      "AliyunMediaInfo",
+      "AliyunMicRecordSource",
+      "AliyunMixComposer",
+      "AliyunMixMediaFileVideoInfo",
+      "AliyunMixMediaInfoParam",
+      "AliyunMixMediaRecordVideoInfo",
+      "AliyunMixMediaVideoInfo",
+      "AliyunMixRecorder",
+      "AliyunMixStream",
+      "AliyunMixTrack",
+      "AliyunMoveAction",
+      "AliyunNativeParser",
+      "AliyunNode",
+      "AliyunParam",
+      "AliyunPartAction",
+      "AliyunPasterBaseView",
+      "AliyunPasterController",
+      "AliyunPipClip",
+      "AliyunPipClipController",
+      "AliyunPipManager",
+      "AliyunPipTrackController",
+      "AliyunPlayerRecordSource",
+      "AliyunPublishManager",
+      "AliyunPureColorBorderInfo",
+      "AliyunRecorder",
+      "AliyunRecorderBackgroundInfo",
+      "AliyunRecorderConfig",
+      "AliyunRecorderGifSticker",
+      "AliyunRecorderImageSticker",
+      "AliyunRecorderVideoConfig",
+      "AliyunRenderBaseController",
+      "AliyunRenderModel",
+      "AliyunResourceExport",
+      "AliyunResourceImport",
+      "AliyunResourceLoadTask",
+      "AliyunResourceModel",
+      "AliyunResourceTaskManager",
+      "AliyunRollCaptionComposer",
+      "AliyunRollCaptionItemStyle",
+      "AliyunRotateAction",
+      "AliyunRotateByAction",
+      "AliyunRotateRepeatAction",
+      "AliyunRotateToAction",
+      "AliyunScaleAction",
+      "AliyunSetAction",
+      "AliyunShaderFilter",
+      "AliyunShaderFilterController",
+      "AliyunSticker",
+      "AliyunStickerController",
+      "AliyunStickerManager",
+      "AliyunTemplate",
+      "AliyunTemplateBuilder",
+      "AliyunTemplateCaptionNode",
+      "AliyunTemplateClipNode",
+      "AliyunTemplateEditor",
+      "AliyunTemplateExporter",
+      "AliyunTemplateImporter",
+      "AliyunTemplateLoader",
+      "AliyunTemplateModifyContent",
+      "AliyunTemplateNode",
+      "AliyunTemplateParam",
+      "AliyunTemplateResourceExport",
+      "AliyunTemplateResourceImport",
+      "AliyunTemplateResourceLoadTask",
+      "AliyunTexture",
+      "AliyunThumbnailParser",
+      "AliyunTrack",
+      "AliyunTransitionEffect",
+      "AliyunTransitionEffectCircle",
+      "AliyunTransitionEffectFade",
+      "AliyunTransitionEffectPolygon",
+      "AliyunTransitionEffectShuffer",
+      "AliyunTransitionEffectTranslate",
+      "AliyunUploadSVideoInfo",
+      "AliyunValue",
+      "AliyunVideoParam",
+      "AliyunVideoRecordBorderInfo",
+      "AliyunVideoRecordLayoutParam",
+      "AliyunVideoSDKInfo",
+      "AliyunVideoStitch",
+      "AliyunViewRecordSource",
+      "AliyunVodPublishManager",
+      "AliyunWipeAction",
+      "AliyunXianyuFaceMap"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "Kepler.bundle",
+      "JDKeplerSDK.framework",
+      "JDKeplerSDK"
+    ],
+    "name": "京东开普勒",
+    "class": [
+      "KeplerApiManager"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "百家云",
+    "class": [
+      "OXClientEntry",
+      "OXOneKeyCustomModel",
+      "OXOrientationLayout"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "talkingdata 统计分析",
+    "class": [
+      "TalkingData"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "MMBeautyKit"
+    ],
+    "name": "陌陌美颜",
+    "class": [
+      "CosmosBeautySDK",
+      "MMBeautyRecordReachability",
+      "MMDebugCVModule",
+      "MMDebugProcessResult",
+      "MMFace137DetectorContext",
+      "MMFace222DetectorContext",
+      "MMFace240DetectorContext",
+      "MMFaceDetectorContext",
+      "MMLocalFaceDetectorContext",
+      "MMRenderEffectConfiguration",
+      "MMRenderFilterBeautyMakeupModule",
+      "MMRenderFilterBeautyModule",
+      "MMRenderFilterLookupModule",
+      "MMRenderFilterModule",
+      "MMRenderModuleManager",
+      "MMRenderPointsRenderFilter"
+    ]
+  },
+  {
+    "category": [
+      "支付类"
+    ],
+    "file": [],
+    "name": "银联云闪付",
+    "class": [
+      "UPPaymentControl"
+    ]
+  },
+  {
+    "category": [
+      "生活服务类,地图导航类"
+    ],
+    "file": [
+      "BaiduMapAPI_Base.framework",
+      "BaiduMapAPI_Map.framework",
+      "BaiduMapAPI_Search.framework",
+      "BaiduMapAPI_Utils.framework"
+    ],
+    "name": "百度地图",
+    "class": [
+      "BMK3DModelOption",
+      "BMK3DModelOverlay",
+      "BMK3DModelOverlayView",
+      "BMKActionPaopaoView",
+      "BMKAddressComponent",
+      "BMKAnnotationView",
+      "BMKArcline",
+      "BMKArclineView",
+      "BMKAsyncTileLayer",
+      "BMKBaseIndoorMapInfo",
+      "BMKBaseLog",
+      "BMKBaseRoutePlanOption",
+      "BMKBaseVehicleInfo",
+      "BMKBuildInfo",
+      "BMKBuildingSearch",
+      "BMKBuildingSearchOption",
+      "BMKBuildingSearchResult",
+      "BMKBusLineResult",
+      "BMKBusLineSearch",
+      "BMKBusLineSearchOption",
+      "BMKBusStation",
+      "BMKBusStep",
+      "BMKBusVehicleInfo",
+      "BMKCircle",
+      "BMKCircleView",
+      "BMKCityListInfo",
+      "BMKCoachVehicleInfo",
+      "BMKCustomMapStyleOption",
+      "BMKDistrictResult",
+      "BMKDistrictSearch",
+      "BMKDistrictSearchOption",
+      "BMKDrivingRouteLine",
+      "BMKDrivingRoutePlanOption",
+      "BMKDrivingRouteResult",
+      "BMKDrivingStep",
+      "BMKFavPoiInfo",
+      "BMKFavPoiManager",
+      "BMKGeoCodeSearch",
+      "BMKGeoCodeSearchOption",
+      "BMKGeoCodeSearchResult",
+      "BMKGeodesicLine",
+      "BMKGeodesicLineView",
+      "BMKGradient",
+      "BMKGradientLine",
+      "BMKGradientLineView",
+      "BMKGroundOverlay",
+      "BMKGroundOverlayView",
+      "BMKHeatMap",
+      "BMKHeatMapNode",
+      "BMKIndoorPlanNode",
+      "BMKIndoorRouteLine",
+      "BMKIndoorRoutePlanOption",
+      "BMKIndoorRouteResult",
+      "BMKIndoorRouteStep",
+      "BMKIndoorStepNode",
+      "BMKLocationShareURLOption",
+      "BMKLocationViewDisplayParam",
+      "BMKMapManager",
+      "BMKMapPoi",
+      "BMKMapStatus",
+      "BMKMapView",
+      "BMKMassTransitRouteLine",
+      "BMKMassTransitRoutePlanOption",
+      "BMKMassTransitRouteResult",
+      "BMKMassTransitStep",
+      "BMKMassTransitSubStep",
+      "BMKMultiPoint",
+      "BMKMultiPointItem",
+      "BMKMultiPointOverlay",
+      "BMKMultiPointOverlayView",
+      "BMKNaviPara",
+      "BMKNavigation",
+      "BMKOLSearchRecord",
+      "BMKOLUpdateElement",
+      "BMKOfflineMap",
+      "BMKOpenDrivingRouteOption",
+      "BMKOpenOption",
+      "BMKOpenPanorama",
+      "BMKOpenPanoramaOption",
+      "BMKOpenPoi",
+      "BMKOpenPoiDetailOption",
+      "BMKOpenPoiNearbyOption",
+      "BMKOpenRoute",
+      "BMKOpenRouteOption",
+      "BMKOpenTransitRouteOption",
+      "BMKOpenWalkingRouteOption",
+      "BMKOverlayGLBasicView",
+      "BMKOverlayPathView",
+      "BMKOverlayView",
+      "BMKPOIBoundSearchOption",
+      "BMKPOICitySearchOption",
+      "BMKPOIDetailChildrenInfo",
+      "BMKPOIDetailInfo",
+      "BMKPOIDetailSearchOption",
+      "BMKPOIDetailSearchResult",
+      "BMKPOIIndoorSearchOption",
+      "BMKPOIIndoorSearchResult",
+      "BMKPOINearbySearchOption",
+      "BMKPOISearchFilter",
+      "BMKPOISearchResult",
+      "BMKPinAnnotationView",
+      "BMKPlanNode",
+      "BMKPlaneVehicleInfo",
+      "BMKPoiDetailShareURLOption",
+      "BMKPoiIndoorInfo",
+      "BMKPoiInfo",
+      "BMKPoiSearch",
+      "BMKPointAnnotation",
+      "BMKPolygon",
+      "BMKPolygonView",
+      "BMKPolyline",
+      "BMKPolylineView",
+      "BMKPrismOverlay",
+      "BMKPrismOverlayView",
+      "BMKRecommendStopInfo",
+      "BMKRecommendStopSearch",
+      "BMKRecommendStopSearchOption",
+      "BMKRecommendStopSearchResult",
+      "BMKReverseGeoCodeSearchOption",
+      "BMKReverseGeoCodeSearchResult",
+      "BMKRidingRouteLine",
+      "BMKRidingRoutePlanOption",
+      "BMKRidingRouteResult",
+      "BMKRidingStep",
+      "BMKRouteLine",
+      "BMKRouteNode",
+      "BMKRoutePlanShareURLOption",
+      "BMKRouteSearch",
+      "BMKRouteStep",
+      "BMKSearchBase",
+      "BMKSearchRGCRegionInfo",
+      "BMKSearchRGCRoadInfo",
+      "BMKShape",
+      "BMKShareURLResult",
+      "BMKShareURLSearch",
+      "BMKSuggestAddrInfo",
+      "BMKSuggestionChildrenInfo",
+      "BMKSuggestionInfo",
+      "BMKSuggestionSearch",
+      "BMKSuggestionSearchOption",
+      "BMKSuggestionSearchResult",
+      "BMKSyncTileLayer",
+      "BMKTaxiInfo",
+      "BMKTileLayer",
+      "BMKTileLayerView",
+      "BMKTime",
+      "BMKTraceOverlay",
+      "BMKTraceOverlayOption",
+      "BMKTraceOverlayView",
+      "BMKTrainVehicleInfo",
+      "BMKTransitRouteLine",
+      "BMKTransitRoutePlanOption",
+      "BMKTransitRouteResult",
+      "BMKTransitStep",
+      "BMKURLTileLayer",
+      "BMKUserLocation",
+      "BMKVehicleInfo",
+      "BMKWalkingRouteLine",
+      "BMKWalkingRoutePlanOption",
+      "BMKWalkingRouteResult",
+      "BMKWalkingStep",
+      "BMKWeatherSearch",
+      "BMKWeatherSearchAlerts",
+      "BMKWeatherSearchForecastForHours",
+      "BMKWeatherSearchForecasts",
+      "BMKWeatherSearchIndexes",
+      "BMKWeatherSearchLocation",
+      "BMKWeatherSearchNow",
+      "BMKWeatherSearchOption",
+      "BMKWeatherSearchResult"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "AgoraSoundTouch.bundle",
+      "AgoraSoundTouch",
+      "AgoraCore",
+      "AgoraCore.bundle"
+    ],
+    "name": "agora video",
+    "class": [
+      "AgoraBeautyOptions",
+      "AgoraCameraCapturerConfiguration",
+      "AgoraChannelMediaRelayConfiguration",
+      "AgoraChannelMediaRelayInfo",
+      "AgoraChannelStats",
+      "AgoraClientRoleOptions",
+      "AgoraEncryptionConfig",
+      "AgoraFacePositionInfo",
+      "AgoraImage",
+      "AgoraLastmileProbeConfig",
+      "AgoraLastmileProbeOneWayResult",
+      "AgoraLastmileProbeResult",
+      "AgoraLiveInjectStreamConfig",
+      "AgoraLiveStreamAdvancedFeature",
+      "AgoraLiveTranscoding",
+      "AgoraLiveTranscodingUser",
+      "AgoraRtcAudioVolumeInfo",
+      "AgoraRtcChannel",
+      "AgoraRtcChannelInfo",
+      "AgoraRtcChannelMediaOptions",
+      "AgoraRtcDefaultCamera",
+      "AgoraRtcDefaultRenderer",
+      "AgoraRtcDeviceInfo",
+      "AgoraRtcEngineConfig",
+      "AgoraRtcEngineKit",
+      "AgoraRtcLocalAudioStats",
+      "AgoraRtcLocalVideoStats",
+      "AgoraRtcRemoteAudioStats",
+      "AgoraRtcRemoteVideoStats",
+      "AgoraRtcScreenCapture",
+      "AgoraRtcVideoCanvas",
+      "AgoraScreenCaptureParameters",
+      "AgoraUserInfo",
+      "AgoraVideoEncoderConfiguration",
+      "AgoraVideoFrame"
+    ]
+  },
+  {
+    "category": [
+      "身份认证类"
+    ],
+    "file": [
+      "GeYanSdk.framework"
+    ],
+    "name": "个验 验证",
+    "class": [
+      "GeYanSdk",
+      "GyAuthPrivacyItem",
+      "GyAuthViewModel",
+      "GyCheckModel",
+      "GyOneLoginPro"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "YWFeedbackBundle.bundle",
+      "Customized.YWFeedbackBundle.bundle"
+    ],
+    "name": "阿里移动用户反馈",
+    "class": [
+      "YWFeedbackFMWK",
+      "YWFeedbackKit"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类"
+    ],
+    "file": [
+      "TYRZUISDK.framework"
+    ],
+    "name": "中国移动一键登录",
+    "class": [
+      "UACustomModel",
+      "UASDKLogin"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类"
+    ],
+    "file": [
+      "EAccountSDKNetwork.framework"
+    ],
+    "name": "天翼本机号码校验",
+    "class": [
+      "EAccountSDK"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类"
+    ],
+    "file": [
+      "EAccountHYSDK.framework"
+    ],
+    "name": "天翼免密登录",
+    "class": [
+      "EAccountHYCTEConfig",
+      "EAccountHYPreLoginModel",
+      "EAccountOpenPageConfig",
+      "EAccountOpenPageSDK"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "UICKeyChainStore",
+    "class": [
+      "UICKeyChainStore"
+    ]
+  },
+  {
+    "category": [
+      "音视频类,即时通讯类"
+    ],
+    "file": [
+      "TXLiteAVSDK_Live.framework",
+      "TXLiteAVSDK_ReplayKitExt.framework",
+      "TXLiteAVSDK_Professional.framework"
+    ],
+    "name": "腾讯移动直播",
+    "class": [
+      "TRTCAudioEffectParam",
+      "TRTCAudioFrame",
+      "TRTCAudioFrameDelegateFormat",
+      "TRTCAudioParallelParams",
+      "TRTCAudioRecordingParams",
+      "TRTCCloud",
+      "TRTCLocalRecordingParams",
+      "TRTCLocalStatistics",
+      "TRTCMixUser",
+      "TRTCNetworkQosParam",
+      "TRTCParams",
+      "TRTCPublishCDNParam",
+      "TRTCQualityInfo",
+      "TRTCRemoteStatistics",
+      "TRTCRenderParams",
+      "TRTCScreenCaptureSourceInfo",
+      "TRTCSpeedTestParams",
+      "TRTCSpeedTestResult",
+      "TRTCStatistics",
+      "TRTCSwitchRoomConfig",
+      "TRTCTranscodingConfig",
+      "TRTCVideoEncParam",
+      "TRTCVideoFrame",
+      "TRTCVolumeInfo",
+      "TXAnimatedPaster",
+      "TXAudioEffectManager",
+      "TXAudioMusicParam",
+      "TXBeautyManager",
+      "TXCAVRoomParam",
+      "TXDeviceManager",
+      "TXGenerateResult",
+      "TXJoinerResult",
+      "TXLivePush",
+      "TXLivePushConfig",
+      "TXMediaDeviceInfo",
+      "TXPaster",
+      "TXPreviewParam",
+      "TXRepeat",
+      "TXSpeed",
+      "TXSubtitle",
+      "TXUGCBase",
+      "TXUGCCustomConfig",
+      "TXUGCPartsManager",
+      "TXUGCRecord",
+      "TXUGCRecordResult",
+      "TXUGCSimpleConfig",
+      "TXVideoEditer",
+      "TXVideoInfo",
+      "TXVideoInfoReader",
+      "TXVideoJoiner"
+    ]
+  },
+  {
+    "category": [
+      "音视频类"
+    ],
+    "file": [
+      "TVSCore.framework",
+      "TVSMember.framework",
+      "TVSSpeech.framework",
+      "TVSWeb.framework"
+    ],
+    "name": "腾讯叮当(QQ音乐)",
+    "class": [
+      "TVSAISpeechItem",
+      "TVSAccountInfo",
+      "TVSAccountProfile",
+      "TVSAlarmReminder",
+      "TVSAuthManager",
+      "TVSCPAuthAgentManager",
+      "TVSCPCredential",
+      "TVSChildMode",
+      "TVSDeviceAuthManager",
+      "TVSDeviceControl",
+      "TVSDeviceIdentity",
+      "TVSDeviceInfo",
+      "TVSDeviceManager",
+      "TVSEnvironment",
+      "TVSMember",
+      "TVSNetworkConfig",
+      "TVSSpeech",
+      "TVSTSKMProxy",
+      "TVSTTSConfig",
+      "TVSThirdPartyAuth",
+      "TVSUserInfo",
+      "TVSWebView"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "火山引擎手势交互",
+    "class": [
+      "BEVideoCapture",
+      "BEProcessResult"
+    ]
+  },
+  {
+    "category": [
+      "即时通讯类"
+    ],
+    "file": [
+      "ImSDK_Plus.framework",
+      "ImSDK.framework"
+    ],
+    "name": "腾讯IM",
+    "class": [
+      "TIMAPNSConfig",
+      "TIMAndroidOfflinePushConfig",
+      "TIMBackgroundParam",
+      "TIMCheckFriendResult",
+      "TIMCodingModel",
+      "TIMConversation",
+      "TIMCreateGroupInfo",
+      "TIMCreateGroupMemberInfo",
+      "TIMCustomElem",
+      "TIMElem",
+      "TIMEventReportItem",
+      "TIMFaceElem",
+      "TIMFileElem",
+      "TIMFriend",
+      "TIMFriendCheckInfo",
+      "TIMFriendGetResult",
+      "TIMFriendGroup",
+      "TIMFriendGroupWithProfiles",
+      "TIMFriendPendencyInfo",
+      "TIMFriendPendencyItem",
+      "TIMFriendPendencyRequest",
+      "TIMFriendPendencyResponse",
+      "TIMFriendProfileOption",
+      "TIMFriendRequest",
+      "TIMFriendResponse",
+      "TIMFriendResult",
+      "TIMFriendshipManager",
+      "TIMGroupAtInfo",
+      "TIMGroupInfo",
+      "TIMGroupInfoOption",
+      "TIMGroupInfoResult",
+      "TIMGroupManager",
+      "TIMGroupMemberInfo",
+      "TIMGroupMemberInfoOption",
+      "TIMGroupMemberResult",
+      "TIMGroupPendencyItem",
+      "TIMGroupPendencyMeta",
+      "TIMGroupPendencyOption",
+      "TIMGroupSelfInfo",
+      "TIMGroupSystemElem",
+      "TIMGroupTipsElem",
+      "TIMGroupTipsElemGroupInfo",
+      "TIMGroupTipsElemMemberInfo",
+      "TIMIOSOfflinePushConfig",
+      "TIMImage",
+      "TIMImageElem",
+      "TIMLocationElem",
+      "TIMLoginParam",
+      "TIMManager",
+      "TIMMessage",
+      "TIMMessageDraft",
+      "TIMMessageLocator",
+      "TIMMessageReceipt",
+      "TIMOfflinePushInfo",
+      "TIMProfileSystemElem",
+      "TIMSNSChangeInfo",
+      "TIMSNSSystemElem",
+      "TIMSdkConfig",
+      "TIMSendToUsersDetailInfo",
+      "TIMSendToUsersErrInfo",
+      "TIMSnapshot",
+      "TIMSoundElem",
+      "TIMTextElem",
+      "TIMTokenParam",
+      "TIMUserConfig",
+      "TIMUserProfile",
+      "TIMVideo",
+      "TIMVideoElem",
+      "V2TIMAPNSConfig",
+      "V2TIMConversation",
+      "V2TIMCreateGroupMemberInfo",
+      "V2TIMCustomElem",
+      "V2TIMElem",
+      "V2TIMFaceElem",
+      "V2TIMFileElem",
+      "V2TIMFriendAddApplication",
+      "V2TIMFriendApplication",
+      "V2TIMFriendApplicationResult",
+      "V2TIMFriendCheckResult",
+      "V2TIMFriendGroup",
+      "V2TIMFriendInfo",
+      "V2TIMFriendInfoResult",
+      "V2TIMFriendOperationResult",
+      "V2TIMFriendSearchParam",
+      "V2TIMGroupApplication",
+      "V2TIMGroupApplicationResult",
+      "V2TIMGroupAtInfo",
+      "V2TIMGroupChangeInfo",
+      "V2TIMGroupInfo",
+      "V2TIMGroupInfoResult",
+      "V2TIMGroupMemberChangeInfo",
+      "V2TIMGroupMemberFullInfo",
+      "V2TIMGroupMemberInfo",
+      "V2TIMGroupMemberOperationResult",
+      "V2TIMGroupMemberSearchParam",
+      "V2TIMGroupSearchParam",
+      "V2TIMGroupTipsElem",
+      "V2TIMImage",
+      "V2TIMImageElem",
+      "V2TIMLocationElem",
+      "V2TIMManager",
+      "V2TIMMergerElem",
+      "V2TIMMessage",
+      "V2TIMMessageListGetOption",
+      "V2TIMMessageReceipt",
+      "V2TIMMessageSearchParam",
+      "V2TIMMessageSearchResult",
+      "V2TIMMessageSearchResultItem",
+      "V2TIMOfflinePushInfo",
+      "V2TIMSDKConfig",
+      "V2TIMSignalingInfo",
+      "V2TIMSoundElem",
+      "V2TIMTextElem",
+      "V2TIMUserFullInfo",
+      "V2TIMUserInfo",
+      "V2TIMVideoElem"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "SDCycleScrollView",
+    "class": [
+      "SDCycleScrollView"
+    ]
+  },
+  {
+    "category": [
+      "身份认证类"
+    ],
+    "file": [
+      "CL_ShanYanSDK.framework"
+    ],
+    "name": "闪验",
+    "class": [
+      "CLCompleteResult",
+      "CLFaceIDTool",
+      "CLOrientationLayOut",
+      "CLShanYanSDKManager",
+      "CLUIConfigure"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类,Crash监控类"
+    ],
+    "file": [
+      "Bugly.framework"
+    ],
+    "name": "腾讯bugly",
+    "class": [
+      "Bugly",
+      "BuglyConfig",
+      "BuglyLog"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "SPSDK",
+      "SPSDK.bundle"
+    ],
+    "name": "百度慧推",
+    "class": [
+      "SPNotificationConfig",
+      "SPNotificationContent",
+      "SPSDKLib",
+      "SPSDKMessage"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "countly",
+    "class": [
+      "Countly",
+      "CountlyConfig",
+      "CountlyCommon"
+    ]
+  },
+  {
+    "category": [
+      "安全风控类,人脸识别类,身份认证类"
+    ],
+    "file": [
+      "WBCloudReflectionFaceVerify.framework",
+      "WBCloudReflectionFaceVerify.bundle"
+    ],
+    "name": "腾讯人脸核身",
+    "class": [
+      "WBFaceRiskInfo",
+      "WBFaceSimpleModeResult",
+      "WBFaceVerifyCustomerService",
+      "WBFaceVerifyResult",
+      "WBFaceVerifySDKConfig"
+    ]
+  },
+  {
+    "category": [
+      "统计类"
+    ],
+    "file": [
+      "BeaconAPI_Base.framework"
+    ],
+    "name": "腾讯灯塔",
+    "class": [
+      "BeaconBaseInfoModel",
+      "BeaconBaseInterface",
+      "BeaconBaseResult",
+      "BeaconEvent",
+      "BeaconEventUploader",
+      "BeaconQimei",
+      "BeaconReport",
+      "BeaconReportConfig",
+      "BeaconReportResult",
+      "BeaconTunnelInfo"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "UserFeedBack"
+    ],
+    "name": "百度移动统计",
+    "class": [
+      "BaiduMobStat",
+      "BaiduMobStatExtraInfo"
+    ]
+  },
+  {
+    "category": [
+      "人脸识别类"
+    ],
+    "file": [
+      "TXqCloudFrSdk.framework"
+    ],
+    "name": "腾讯云优图",
+    "class": [
+      "TXqCloudFrSdk"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "talkingdata 易认证",
+    "class": [
+      "TalkingDataEAuth"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "talkingdata 移动广告监测",
+    "class": [
+      "TalkingDataAppCpa"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "TTTAttributedLabel",
+    "class": [
+      "TTTAttributedLabel",
+      "mutableAttributedString",
+      "TTTAttributedLabelLink"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "GPUImage",
+    "class": [
+      "GPUImageContext",
+      "GPUImageMovieWriterDelegate",
+      "GPUImageMovieWriter"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "数美",
+    "class": [
+      "SmAntiFraud"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "喜马拉雅UI",
+    "class": [
+      "XMUISDKMgr"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类"
+    ],
+    "file": [
+      "MSDKDns.framework",
+      "MSDKDns_C11.framework"
+    ],
+    "name": "腾讯云移动解析httpdns",
+    "class": [
+      "MSDKDns",
+      "MSDKDnsHttpMessageTools"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "ScanKitFrameWork.framework",
+      "ScanKitFrameWorkBundle.bundle"
+    ],
+    "name": "华为统一扫码",
+    "class": [
+      "HmsCustomScanViewController",
+      "HmsDefaultScanViewController"
+    ]
+  },
+  {
+    "category": [
+      "统计类"
+    ],
+    "file": [],
+    "name": "极光统计",
+    "class": [
+      "JANALYTICSBrowseEvent",
+      "JANALYTICSCalculateEvent",
+      "JANALYTICSCountEvent",
+      "JANALYTICSEventObject",
+      "JANALYTICSLaunchConfig",
+      "JANALYTICSLoginEvent",
+      "JANALYTICSPurchaseEvent",
+      "JANALYTICSRegisterEvent",
+      "JANALYTICSService",
+      "JANALYTICSUserInfo"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类"
+    ],
+    "file": [],
+    "name": "七牛存储",
+    "class": [
+      "QNALAssetFile",
+      "QNAutoZone",
+      "QNBaseUpload",
+      "QNCFHttpClient",
+      "QNConcurrentResumeUpload",
+      "QNConfiguration",
+      "QNConfigurationBuilder",
+      "QNConnectChecker",
+      "QNCrc32",
+      "QNDnsCacheFile",
+      "QNDnsCacheInfo",
+      "QNDnsPrefetch",
+      "QNEtag",
+      "QNFile",
+      "QNFileRecorder",
+      "QNFixedZone",
+      "QNFormUpload",
+      "QNGlobalConfiguration",
+      "QNHttpRegionRequest",
+      "QNHttpSingleRequest",
+      "QNInetAddress",
+      "QNLogUtil",
+      "QNMutableArray",
+      "QNNetworkStatus",
+      "QNNetworkStatusManager",
+      "QNPHAssetFile",
+      "QNPHAssetResource",
+      "QNPartsUpload",
+      "QNPartsUploadPerformer",
+      "QNPartsUploadPerformerV1",
+      "QNPartsUploadPerformerV2",
+      "QNPipeline",
+      "QNPipelineConfig",
+      "QNReportConfig",
+      "QNReportItem",
+      "QNRequestTransaction",
+      "QNResponseInfo",
+      "QNSessionManager",
+      "QNSingleFlight",
+      "QNTempFile",
+      "QNTransaction",
+      "QNTransactionManager",
+      "QNURLProtocol",
+      "QNUpProgress",
+      "QNUpToken",
+      "QNUploadBaseTest",
+      "QNUploadBlock",
+      "QNUploadData",
+      "QNUploadDomainRegion",
+      "QNUploadFlowTest",
+      "QNUploadInfo",
+      "QNUploadInfoReporter",
+      "QNUploadInfoV1",
+      "QNUploadInfoV2",
+      "QNUploadManager",
+      "QNUploadMetrics",
+      "QNUploadOption",
+      "QNUploadRegionRequestMetrics",
+      "QNUploadRequestInfo",
+      "QNUploadRequestState",
+      "QNUploadServer",
+      "QNUploadServerFreezeManager",
+      "QNUploadServerFreezeUtil",
+      "QNUploadServerNetworkStatus",
+      "QNUploadSingleRequestMetrics",
+      "QNUploadSourceFile",
+      "QNUploadSourceStream",
+      "QNUploadSystemClient",
+      "QNUploadTaskMetrics",
+      "QNUrlSafeBase64",
+      "QNUserAgent",
+      "QNUtils",
+      "QNZone",
+      "QNZoneInfo",
+      "QNZonesInfo",
+      "QN_GTM_Base64"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类,地图导航类"
+    ],
+    "file": [
+      "AMapNavi.bundle",
+      "AMapNaviKit.framework"
+    ],
+    "name": "高德导航",
+    "class": [
+      "AMapNaviBaseManager",
+      "AMapNaviCameraInfo",
+      "AMapNaviCompositeCustomAnnotation",
+      "AMapNaviCompositeManager",
+      "AMapNaviCompositeUserConfig",
+      "AMapNaviCongestionInfo",
+      "AMapNaviCruiseCongestionInfo",
+      "AMapNaviCruiseInfo",
+      "AMapNaviCruiseLinkStatus",
+      "AMapNaviDriveManager",
+      "AMapNaviDriveView",
+      "AMapNaviEleBikeManager",
+      "AMapNaviExitBoardInfo",
+      "AMapNaviGroupSegment",
+      "AMapNaviGuide",
+      "AMapNaviHUDView",
+      "AMapNaviInfo",
+      "AMapNaviIntervalCameraDynamicInfo",
+      "AMapNaviLink",
+      "AMapNaviLocation",
+      "AMapNaviManagerConfig",
+      "AMapNaviNotAvoidFacilityAndForbiddenInfo",
+      "AMapNaviPOIInfo",
+      "AMapNaviParallelRoadInfo",
+      "AMapNaviParallelRoadStatus",
+      "AMapNaviPoint",
+      "AMapNaviPointBounds",
+      "AMapNaviRestrictionInfo",
+      "AMapNaviRideManager",
+      "AMapNaviRideView",
+      "AMapNaviRoadFacilityInfo",
+      "AMapNaviRoute",
+      "AMapNaviRouteForbiddenInfo",
+      "AMapNaviRouteGroup",
+      "AMapNaviRouteGuideGroup",
+      "AMapNaviRouteGuideSegment",
+      "AMapNaviRouteIconPoint",
+      "AMapNaviRouteLabel",
+      "AMapNaviRouteNotifyData",
+      "AMapNaviRouteWayPointInfo",
+      "AMapNaviSegment",
+      "AMapNaviServiceAreaInfo",
+      "AMapNaviStatisticsInfo",
+      "AMapNaviSuggestChangeMainNaviRouteInfo",
+      "AMapNaviToWayPointInfo",
+      "AMapNaviTrafficBarView",
+      "AMapNaviTrafficFacilityInfo",
+      "AMapNaviTrafficIncidentInfo",
+      "AMapNaviTrafficStatus",
+      "AMapNaviTravelManager",
+      "AMapNaviVehicleInfo",
+      "AMapNaviWalkManager",
+      "AMapNaviWalkView"
+    ]
+  },
+  {
+    "category": [
+      "分享类"
+    ],
+    "file": [
+      "UMLink.framework"
+    ],
+    "name": "友盟智能超链",
+    "class": [
+      "MobClickLink"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "Vuforia"
+    ],
+    "name": "vuforia",
+    "class": []
+  },
+  {
+    "category": [],
+    "file": [
+      "RongCloud.bundle"
+    ],
+    "name": "融云",
+    "class": [
+      "RCMessageBaseCell",
+      "RCMessageBubbleTipView",
+      "RCMessageCell",
+      "RCMessageCellNotificationModel",
+      "RCMessageCellTool",
+      "RCMessageModel"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "SPSDK",
+      "SPSDK.bundle"
+    ],
+    "name": "百度慧推",
+    "class": [
+      "SPNotificationConfig",
+      "SPNotificationContent",
+      "SPSDKLib",
+      "SPSDKMessage"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "countly",
+    "class": [
+      "Countly",
+      "CountlyConfig",
+      "CountlyCommon"
+    ]
+  },
+  {
+    "category": [
+      "安全风控类,人脸识别类,身份认证类"
+    ],
+    "file": [
+      "WBCloudReflectionFaceVerify.framework",
+      "WBCloudReflectionFaceVerify.bundle"
+    ],
+    "name": "腾讯人脸核身",
+    "class": [
+      "WBFaceRiskInfo",
+      "WBFaceSimpleModeResult",
+      "WBFaceVerifyCustomerService",
+      "WBFaceVerifyResult",
+      "WBFaceVerifySDKConfig"
+    ]
+  },
+  {
+    "category": [
+      "统计类"
+    ],
+    "file": [
+      "BeaconAPI_Base.framework"
+    ],
+    "name": "腾讯灯塔",
+    "class": [
+      "BeaconBaseInfoModel",
+      "BeaconBaseInterface",
+      "BeaconBaseResult",
+      "BeaconEvent",
+      "BeaconEventUploader",
+      "BeaconQimei",
+      "BeaconReport",
+      "BeaconReportConfig",
+      "BeaconReportResult",
+      "BeaconTunnelInfo"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "UserFeedBack"
+    ],
+    "name": "百度移动统计",
+    "class": [
+      "BaiduMobStat",
+      "BaiduMobStatExtraInfo"
+    ]
+  },
+  {
+    "category": [
+      "人脸识别类"
+    ],
+    "file": [
+      "TXqCloudFrSdk.framework"
+    ],
+    "name": "腾讯云优图",
+    "class": [
+      "TXqCloudFrSdk"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "talkingdata 易认证",
+    "class": [
+      "TalkingDataEAuth"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "talkingdata 移动广告监测",
+    "class": [
+      "TalkingDataAppCpa"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "TTTAttributedLabel",
+    "class": [
+      "TTTAttributedLabel",
+      "mutableAttributedString",
+      "TTTAttributedLabelLink"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "GPUImage",
+    "class": [
+      "GPUImageContext",
+      "GPUImageMovieWriterDelegate",
+      "GPUImageMovieWriter"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "数美",
+    "class": [
+      "SmAntiFraud"
+    ]
+  },
+  {
+    "category": [],
+    "file": [],
+    "name": "喜马拉雅UI",
+    "class": [
+      "XMUISDKMgr"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类"
+    ],
+    "file": [
+      "MSDKDns.framework",
+      "MSDKDns_C11.framework"
+    ],
+    "name": "腾讯云移动解析httpdns",
+    "class": [
+      "MSDKDns",
+      "MSDKDnsHttpMessageTools"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "ScanKitFrameWork.framework",
+      "ScanKitFrameWorkBundle.bundle"
+    ],
+    "name": "华为统一扫码",
+    "class": [
+      "HmsCustomScanViewController",
+      "HmsDefaultScanViewController"
+    ]
+  },
+  {
+    "category": [
+      "统计类"
+    ],
+    "file": [],
+    "name": "极光统计",
+    "class": [
+      "JANALYTICSBrowseEvent",
+      "JANALYTICSCalculateEvent",
+      "JANALYTICSCountEvent",
+      "JANALYTICSEventObject",
+      "JANALYTICSLaunchConfig",
+      "JANALYTICSLoginEvent",
+      "JANALYTICSPurchaseEvent",
+      "JANALYTICSRegisterEvent",
+      "JANALYTICSService",
+      "JANALYTICSUserInfo"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类"
+    ],
+    "file": [],
+    "name": "七牛存储",
+    "class": [
+      "QNALAssetFile",
+      "QNAutoZone",
+      "QNBaseUpload",
+      "QNCFHttpClient",
+      "QNConcurrentResumeUpload",
+      "QNConfiguration",
+      "QNConfigurationBuilder",
+      "QNConnectChecker",
+      "QNCrc32",
+      "QNDnsCacheFile",
+      "QNDnsCacheInfo",
+      "QNDnsPrefetch",
+      "QNEtag",
+      "QNFile",
+      "QNFileRecorder",
+      "QNFixedZone",
+      "QNFormUpload",
+      "QNGlobalConfiguration",
+      "QNHttpRegionRequest",
+      "QNHttpSingleRequest",
+      "QNInetAddress",
+      "QNLogUtil",
+      "QNMutableArray",
+      "QNNetworkStatus",
+      "QNNetworkStatusManager",
+      "QNPHAssetFile",
+      "QNPHAssetResource",
+      "QNPartsUpload",
+      "QNPartsUploadPerformer",
+      "QNPartsUploadPerformerV1",
+      "QNPartsUploadPerformerV2",
+      "QNPipeline",
+      "QNPipelineConfig",
+      "QNReportConfig",
+      "QNReportItem",
+      "QNRequestTransaction",
+      "QNResponseInfo",
+      "QNSessionManager",
+      "QNSingleFlight",
+      "QNTempFile",
+      "QNTransaction",
+      "QNTransactionManager",
+      "QNURLProtocol",
+      "QNUpProgress",
+      "QNUpToken",
+      "QNUploadBaseTest",
+      "QNUploadBlock",
+      "QNUploadData",
+      "QNUploadDomainRegion",
+      "QNUploadFlowTest",
+      "QNUploadInfo",
+      "QNUploadInfoReporter",
+      "QNUploadInfoV1",
+      "QNUploadInfoV2",
+      "QNUploadManager",
+      "QNUploadMetrics",
+      "QNUploadOption",
+      "QNUploadRegionRequestMetrics",
+      "QNUploadRequestInfo",
+      "QNUploadRequestState",
+      "QNUploadServer",
+      "QNUploadServerFreezeManager",
+      "QNUploadServerFreezeUtil",
+      "QNUploadServerNetworkStatus",
+      "QNUploadSingleRequestMetrics",
+      "QNUploadSourceFile",
+      "QNUploadSourceStream",
+      "QNUploadSystemClient",
+      "QNUploadTaskMetrics",
+      "QNUrlSafeBase64",
+      "QNUserAgent",
+      "QNUtils",
+      "QNZone",
+      "QNZoneInfo",
+      "QNZonesInfo",
+      "QN_GTM_Base64"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类,地图导航类"
+    ],
+    "file": [
+      "AMapNavi.bundle",
+      "AMapNaviKit.framework"
+    ],
+    "name": "高德导航",
+    "class": [
+      "AMapNaviBaseManager",
+      "AMapNaviCameraInfo",
+      "AMapNaviCompositeCustomAnnotation",
+      "AMapNaviCompositeManager",
+      "AMapNaviCompositeUserConfig",
+      "AMapNaviCongestionInfo",
+      "AMapNaviCruiseCongestionInfo",
+      "AMapNaviCruiseInfo",
+      "AMapNaviCruiseLinkStatus",
+      "AMapNaviDriveManager",
+      "AMapNaviDriveView",
+      "AMapNaviEleBikeManager",
+      "AMapNaviExitBoardInfo",
+      "AMapNaviGroupSegment",
+      "AMapNaviGuide",
+      "AMapNaviHUDView",
+      "AMapNaviInfo",
+      "AMapNaviIntervalCameraDynamicInfo",
+      "AMapNaviLink",
+      "AMapNaviLocation",
+      "AMapNaviManagerConfig",
+      "AMapNaviNotAvoidFacilityAndForbiddenInfo",
+      "AMapNaviPOIInfo",
+      "AMapNaviParallelRoadInfo",
+      "AMapNaviParallelRoadStatus",
+      "AMapNaviPoint",
+      "AMapNaviPointBounds",
+      "AMapNaviRestrictionInfo",
+      "AMapNaviRideManager",
+      "AMapNaviRideView",
+      "AMapNaviRoadFacilityInfo",
+      "AMapNaviRoute",
+      "AMapNaviRouteForbiddenInfo",
+      "AMapNaviRouteGroup",
+      "AMapNaviRouteGuideGroup",
+      "AMapNaviRouteGuideSegment",
+      "AMapNaviRouteIconPoint",
+      "AMapNaviRouteLabel",
+      "AMapNaviRouteNotifyData",
+      "AMapNaviRouteWayPointInfo",
+      "AMapNaviSegment",
+      "AMapNaviServiceAreaInfo",
+      "AMapNaviStatisticsInfo",
+      "AMapNaviSuggestChangeMainNaviRouteInfo",
+      "AMapNaviToWayPointInfo",
+      "AMapNaviTrafficBarView",
+      "AMapNaviTrafficFacilityInfo",
+      "AMapNaviTrafficIncidentInfo",
+      "AMapNaviTrafficStatus",
+      "AMapNaviTravelManager",
+      "AMapNaviVehicleInfo",
+      "AMapNaviWalkManager",
+      "AMapNaviWalkView"
+    ]
+  },
+  {
+    "category": [
+      "分享类"
+    ],
+    "file": [
+      "UMLink.framework"
+    ],
+    "name": "友盟智能超链",
+    "class": [
+      "MobClickLink"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "Vuforia"
+    ],
+    "name": "vuforia",
+    "class": []
+  },
+  {
+    "category": [],
+    "file": [
+      "RongCloud.bundle"
+    ],
+    "name": "融云",
+    "class": [
+      "RCMessageBaseCell",
+      "RCMessageBubbleTipView",
+      "RCMessageCell",
+      "RCMessageCellNotificationModel",
+      "RCMessageCellTool",
+      "RCMessageModel"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类,地图导航类"
+    ],
+    "file": [
+      "BaiduTraceSDK.framework"
+    ],
+    "name": "百度鹰眼轨迹",
+    "class": [
+      "BTKAPIBaseRequest",
+      "BTKAction",
+      "BTKAddCustomTrackPointRequest",
+      "BTKAddEntityRequest",
+      "BTKAddMonitoredObjectRequest",
+      "BTKAnalysisAction",
+      "BTKAroundSearchEntityRequest",
+      "BTKBaseFence",
+      "BTKBatchAddCustomTrackPointRequest",
+      "BTKBatchQueryServerFenceHistoryAlarmRequest",
+      "BTKBoundSearchEntityRequest",
+      "BTKClearTrackCacheOption",
+      "BTKClearTrackCacheRequest",
+      "BTKCreateLocalFenceRequest",
+      "BTKCreateServerFenceRequest",
+      "BTKCustomTrackPoint",
+      "BTKDeleteEntityRequest",
+      "BTKDeleteLocalFenceRequest",
+      "BTKDeleteMonitoredObjectRequest",
+      "BTKDeleteServerFenceRequest",
+      "BTKDistrictSearchEntityRequest",
+      "BTKDrivingBehaviorThresholdOption",
+      "BTKDrivingBehaviourAnalysisRequest",
+      "BTKEntityAction",
+      "BTKFenceAction",
+      "BTKFenceAlarmLocationPoint",
+      "BTKListMonitoredObjectRequest",
+      "BTKLocalCircleFence",
+      "BTKLocationPoint",
+      "BTKPolygonSearchEntityRequest",
+      "BTKPushMessage",
+      "BTKPushMessageBaseContent",
+      "BTKPushMessageFenceAlarmContent",
+      "BTKQueryEntityFilterOption",
+      "BTKQueryEntityRequest",
+      "BTKQueryHistoryTrackRequest",
+      "BTKQueryLocalFenceHistoryAlarmRequest",
+      "BTKQueryLocalFenceRequest",
+      "BTKQueryLocalFenceStatusByCustomLocationRequest",
+      "BTKQueryLocalFenceStatusRequest",
+      "BTKQueryServerFenceHistoryAlarmRequest",
+      "BTKQueryServerFenceRequest",
+      "BTKQueryServerFenceStatusByCustomLocationRequest",
+      "BTKQueryServerFenceStatusRequest",
+      "BTKQueryTrackCacheInfoRequest",
+      "BTKQueryTrackDistanceRequest",
+      "BTKQueryTrackLatestPointRequest",
+      "BTKQueryTrackProcessOption",
+      "BTKSearchEntityRequest",
+      "BTKSearchEntitySortByOption",
+      "BTKServerCircleFence",
+      "BTKServerDistrictFence",
+      "BTKServerPolygonFence",
+      "BTKServerPolylineFence",
+      "BTKServiceOption",
+      "BTKStartServiceOption",
+      "BTKStayPointAnalysisRequest",
+      "BTKTrackAction",
+      "BTKUpdateEntityRequest",
+      "BTKUpdateLocalFenceRequest",
+      "BTKUpdateServerFenceRequest"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "VolcEngineRTC"
+    ],
+    "name": "火山引擎实时音视频",
+    "class": [
+      "ByteRtcEngineKit"
+    ]
+  },
+  {
+    "category": [
+      "基础能力类"
+    ],
+    "file": [],
+    "name": "linphone",
+    "class": [
+      "LinphoneAppDelegate",
+      "LinphoneCoreSettingsStore",
+      "LinphoneManager",
+      "LinphoneTestCase",
+      "LinphoneUtils"
+    ]
+  },
+  {
+    "category": [],
+    "file": [
+      "MMVideoSDk.bundle"
+    ],
+    "name": "陌陌短视频",
+    "class": []
+  }
+]
